@@ -1,0 +1,435 @@
+[
+  {
+    "id": 1,
+    "modulo": "liderazgo",
+    "titulo": "Liderazgo",
+    "ponderacion": "25%",
+    "url": "/liderazgo",
+    "indicadores": [
+      {
+        "Indicador": 1,
+        "titulo": "Indicador 1",
+        "descripcion": "Porcentaje anual de ejecucion de las actividades definidas en el Plan de Mejoramiento Educativo (PME) del establecimiento. (10%)",
+        "progreso": 43,
+        "ejecutadas": 35,
+        "planificadas": 80,
+        "formula": {
+          "calculo": "(NAE / TAP) * 100",
+          "glosa": "NAE: Numero de Actividades Ejecutadas.\n TAP: Total de Actividades Planificadas."
+        },
+        "medios": [
+          {
+            "cargado": true,
+            "titulo": "Informe fase de implementación anual PME"
+          },
+          {
+            "cargado": false,
+            "titulo": "Informe Monitoreo PME"
+          },
+          {
+            "cargado": true,
+            "titulo": "Informe Verificación PME confeccionado por MINEDUC"
+          }
+        ]
+      },
+      {
+        "Indicador": 2,
+        "titulo": "Indicador 2",
+        "descripcion": "Diseño e Implementacion de un plan de actividades para revisar, actualizar, articular y difundir el PEI con todos los actores de la comunidad educativa (5%).",
+        "progreso": 65,
+        "ejecutadas": 21,
+        "planificadas": 40,
+        "formula": {
+          "calculo": "(NAE / TAP) * 100",
+          "glosa": "NAE: Numero de Actividades Ejecutadas.\n TAP: Total de Actividades Planificadas."
+        },
+        "medios": [
+          {
+            "cargado": true,
+            "titulo": "Programas de las actividades planificadas"
+          },
+          {
+            "cargado": false,
+            "titulo": "Informe y acta de las actividades realizadas"
+          },
+          {
+            "cargado": false,
+            "titulo": "Registro de asistencia de cada actividad"
+          },
+          {
+            "cargado": true,
+            "titulo": "Registro fotográfico"
+          }
+        ]
+      },
+      {
+        "Indicador": 3,
+        "titulo": "Indicador 3",
+        "descripcion": "Diseño e Implementacion de un modelo de sistematizacion analisis y aplicacion de datos de la gestion escolar.",
+        "progreso": 13,
+        "ejecutadas": 10,
+        "planificadas": 20,
+        "formula": {
+          "calculo": "(NAEM / TAPM) * 100",
+          "glosa": "NAEM: Numero de Actividades Ejecutadas del Modelo.\n TAPM: Total de Actividades Planificadas del Modelo."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Carta Gantt"
+          },
+          {
+            "cargado": false,
+            "titulo": "Otros sistemas de recolección de datos derivados de los Indicadores de eficiencia"
+          },
+          {
+            "cargado": true,
+            "titulo": "Evaluaciones internas y externas"
+          },
+          {
+            "cargado": false,
+            "titulo": "Sistema de Reconocimiento Docente"
+          },
+          {
+            "cargado": true,
+            "titulo": "Informe de la Agencia de Calidad"
+          },
+          {
+            "cargado": false,
+            "titulo": "NAPSIS"
+          },
+          {
+            "cargado": true,
+            "titulo": "SIGE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "modulo": "gestion-pedagogica",
+    "titulo": "Gestión Pedagógica",
+    "ponderacion": "25%",
+    "progreso": 12,
+    "url": "/gestion-pedagogica",
+    "indicadores": [
+      {
+        "Indicador": 1,
+        "titulo": "Indicador 1",
+        "descripcion": "Porcentaje anual de ejecución del Plan de Desarrollo Profesional Docente (10%).",
+        "progreso": 12,
+        "ejecutadas": 25,
+        "planificadas": 51,
+        "formula": {
+          "calculo": "(NAE / TAPP) * 100",
+          "glosa": "NAE: Numero de Actividades Ejecutadas. TAPP: Total de Actividades del Plan Programadas."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Plan Local de Formación para el Desarrollo Profesional Docente"
+          }
+        ]
+      },
+      {
+        "Indicador": 2,
+        "titulo": "Indicador 2",
+        "descripcion": "Diseño e implementación de un plan de acompañamiento y retroalimentación docente (5%).",
+        "progreso": 44,
+        "ejecutadas": 12,
+        "planificadas": 45,
+        "formula": {
+          "calculo": "(NARDEEP / NARDPP) * 100",
+          "glosa": "NARDEEP: Numero de Acompañamientos y Retroalimentacion Docentes Ejecutados y Establecidos en el Plan. NARDPP: Numero de Acompañamientos y Retroalimentacion Docente Planificadas en el Plan."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Registros de observación o acompañamiento de clases y retroalimentación docente."
+          },
+          {
+            "cargado": true,
+            "titulo": "Entrevista, Encuesta o grupo focal con equipo directivo y/o con docentes."
+          }
+        ]
+      },
+      {
+        "Indicador": 3,
+        "titulo": "Indicador 3",
+        "descripcion": "Diseño e implementación de un Plan de Monitoreo de los procesos de enseñanza-aprendizaje de los estudiantes (10%).",
+        "progreso": 80,
+        "ejecutadas": 33,
+        "planificadas": 54,
+        "formula": {
+          "calculo": "(NAPMIEExA / NATPaX) * 100",
+          "glosa": "NAPMIEExA: Numero de Actividades del Plan de Monitoreo Implementadas, Ejecutadas y Evaluadas Año X.\n NATPaX: Numero de Actividades Totales del Plan para el Año X."
+        },
+        "medios": [
+          {
+            "cargado": true,
+            "titulo": "Reglamento de evaluación."
+          },
+          {
+            "cargado": false,
+            "titulo": "Registro de observación y/o acompañamiento de clases"
+          },
+          {
+            "cargado": false,
+            "titulo": "Entrevistas, encuestas o grupo focal con el equipo técnico pedagógico, docentes y estudiantes"
+          },
+          {
+            "cargado": true,
+            "titulo": "Sistema de Registro Unidad Técnico Pedagógica."
+          },
+          {
+            "cargado": false,
+            "titulo": "Escuelas Arriba, etc..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "modulo": "convivencia-escolar",
+    "titulo": "Convivencia Escolar",
+    "ponderacion": "20%",
+    "progreso": 55,
+    "url": "/convivencia-escolar",
+    "indicadores": [
+      {
+        "Indicador": 1,
+        "titulo": "Indicador 1",
+        "descripcion": "Porcentaje de implementación de los planes formativos del Modelo de Gestión de la Convivencia Escolar (5%).",
+        "progreso": 66,
+        "ejecutadas": 12,
+        "planificadas": 33,
+        "formula": {
+          "calculo": "[ ((NAEP1 / TADP1) * 100) + ((NAEP2 / TADP2) * 100) + ((NAEP3 / TADP3) * 100) + ((NAEP4 / TADP4) * 100) + ((NAEP5 / TADP5) * 100) + ((NAEP6 / TADP6) * 100)] / 6",
+          "glosa": "NAEP1: N° acc. eje. plan 1. TADP1: Total acc. def. en plan 1. NAEP2: N° acc. eje. plan 2. TADP2: Total acc. def. en plan 2. NAEP3: N° acc. eje. plan 3. TADP3: Total acc. def. en plan 3. NAEP4: N° acc. eje. plan 4. TADP4: Total acc. def. en plan 4. NAEP5: N° acc. eje. plan 5. TADP5: Total acc. def. en plan 5. NAEP6: N° acc. eje. plan 6. TADP6: Total acc. def. en plan 6."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "PME Dimensión Convivencia Escolar",
+            "subtitulos": [
+              "1. Plan de convivencia escolar.",
+              "2. Plan de sexualidad.",
+              "3. Plan afectividad y género.",
+              "4. Plan formación ciudadana.",
+              "5. Plan inclusión.",
+              "6. Plan seguridad escolar"
+            ]
+          },
+          {
+            "cargado": true,
+            "titulo": "Encuestas de la convivencia escolar al inicio y al final de cada año"
+          }
+        ]
+      },
+      {
+        "Indicador": 2,
+        "titulo": "Indicador 2",
+        "descripcion": "Diseño e implementación de un Plan de participación de padres y apoderados en los procesos formativos y académicos de los estudiantes (5%).",
+        "progreso": 44,
+        "ejecutadas": 65,
+        "planificadas": 76,
+        "formula": {
+          "calculo": "(NAE / TAP) * 100",
+          "glosa": "NAE: Numero de Actividades Ejecutadas. TAP: Total de Actividades Planificadas."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Entrevista."
+          },
+          {
+            "cargado": true,
+            "titulo": "Encuesta de nivel de satisfacción o grupo focal con familias, apoderados y Centro de Padres y Apoderados."
+          },
+          {
+            "cargado": true,
+            "titulo": "Plan de trabajo con la familia."
+          },
+          {
+            "cargado": true,
+            "titulo": "Proyecto Educativo Institucional."
+          },
+          {
+            "cargado": true,
+            "titulo": "Reglamento Interno."
+          },
+          {
+            "cargado": true,
+            "titulo": "Manual de Convivencia Escolar."
+          }
+        ]
+      },
+      {
+        "Indicador": 3,
+        "titulo": "Indicador 3",
+        "descripcion": "Porcentaje de situaciones de conflictos que son mejoradas de acuerdo a los protocolos institucionales (5%).",
+        "progreso": 80,
+        "ejecutadas": 32,
+        "planificadas": 57,
+        "formula": {
+          "calculo": "(CSRSP / TSC) * 100",
+          "glosa": "CSRSP: Cantidad de Situaciones Resueltas Segun Protocolo. TSC: Total de Situaciones de Conflicto."
+        },
+        "medios": [
+          {
+            "cargado": true,
+            "titulo": "Registro interno semestral de situaciones de conflicto derivadas donde se especifiquen los pasos del procedimiento realizado (activación de protocolos)."
+          },
+          {
+            "cargado": true,
+            "titulo": "Acta de fiscalización u observaciones realizadas por SIE."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "modulo": "gestion-recursos",
+    "titulo": "Gestion de Recursos.",
+    "ponderacion": "10%",
+    "progreso": 87,
+    "url": "/gestion-recursos",
+    "indicadores": [
+      {
+        "Indicador": 1,
+        "titulo": "Indicador 1",
+        "descripcion": "Porcentaje del personal que cuenta con evaluación de desempeño considerando los ámbitos pedagógicos, administrativos y de relaciones interpersonales (5%).",
+        "progreso": 66,
+        "ejecutadas": 44,
+        "planificadas": 66,
+        "formula": {
+          "calculo": "(NPEA / TPE) * 100",
+          "glosa": "NPEA: Numero de Personal Evaluado en el Año. TPE: Total de Personas de la Escuela."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Pautas e informes de evaluación de desempeño del personal."
+          },
+          {
+            "cargado": true,
+            "titulo": "Informe de compromisos de mejora."
+          },
+          {
+            "cargado": true,
+            "titulo": "Entrevista, encuesta o grupo focal con el personal."
+          }
+        ]
+      },
+      {
+        "Indicador": 2,
+        "titulo": "Indicador 2",
+        "descripcion": "Diseño e implementación de un Plan de utilización de las diferentes herramientas tecnológicas, materiales didácticos y equipamiento para el apoyo ala gestión pedagógica en el desarrollo de clases que permitan mejorar los aprendizajes de los estudiantes (5%).",
+        "progreso": 44,
+        "ejecutadas": 33,
+        "planificadas": 45,
+        "formula": {
+          "calculo": "(NAEP / TAPP) * 100",
+          "glosa": "NAEP: Numero de Actividades Ejecutadas del Plan. TAPP: Total de Actividades Planificadas del Plan."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Registros de visitas y usos de recursos educativos tales como: CRA, ENLACES, TELECLASES, Pizarras Interactivas, entre otras."
+          },
+          {
+            "cargado": true,
+            "titulo": "Planificaciones que consideren el uso de recursos."
+          },
+          {
+            "cargado": true,
+            "titulo": "Inventario de recursos didácticos (CRA, ENLACES, TELECLASES, entre otros)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "modulo": "resultados",
+    "titulo": "Resultados",
+    "ponderacion": "20%",
+    "progreso": 15,
+    "url": "/resultados",
+    "indicadores": [
+      {
+        "Indicador": 1,
+        "titulo": "Indicador 1",
+        "descripcion": "Mejorar los niveles de aprendizaje de acuerdo a los instrumentos estandarizados que defina la autoridad de educación (7%).",
+        "progreso": 45,
+        "ejecutadas": 55,
+        "planificadas": 80,
+        "formula": {
+          "calculo": "",
+          "glosa": "Aumento Porcentual de los Resultados de Aprendizaje de los Estudiantes en Lectura."
+        },
+        "medios": [
+          {
+            "cargado": true,
+            "titulo": "Reporte de Agencia de Calidad Programas Escuelas Arriba."
+          },
+          {
+            "cargado": true,
+            "titulo": "Evaluaciones internas, entre otras."
+          }
+        ]
+      },
+      {
+        "Indicador": 2,
+        "titulo": "Indicador 2",
+        "descripcion": "Mejorar los niveles de aprendizaje de acuerdo a los instrumentos estandarizados que defina la autoridad de educación (7%).",
+        "progreso": 45,
+        "ejecutadas": 76,
+        "planificadas": 35,
+        "formula": {
+          "calculo": "",
+          "glosa": "Aumento porcentual de los Resultados de Aprendizaje de los Estudiantes en Matematicas."
+        },
+        "medios": [
+          {
+            "cargado": true,
+            "titulo": "Reporte de Agencia de Calidad Programas Escuelas Arriba."
+          },
+          {
+            "cargado": true,
+            "titulo": "Evaluaciones internas, entre otras."
+          }
+        ]
+      },
+      {
+        "Indicador": 3,
+        "titulo": "Indicador 3",
+        "descripcion": "Porcentaje de incremento en los resultados obtenidos en los Indicadores de Desarrollo Personal y Social (6%).",
+        "progreso": 13,
+        "ejecutadas": 45,
+        "planificadas": 23,
+        "formula": {
+          "calculo": "(POEAc - POEAn)",
+          "glosa": "POEAc: Puntaje Obtenido en Evaluación Actual. POEAn: Puntaje Obtenido en la Evaluación Anterior."
+        },
+        "medios": [
+          {
+            "cargado": false,
+            "titulo": "Informe Agencia de Calidad."
+          },
+          {
+            "cargado": false,
+            "titulo": "Encuestas de satisfacción sobre clima organizacional."
+          },
+          {
+            "cargado": true,
+            "titulo": "Plan de gestión Educación Física."
+          }
+        ]
+      }
+    ]
+  }
+]
