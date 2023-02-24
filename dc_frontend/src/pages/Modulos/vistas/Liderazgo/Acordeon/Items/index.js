@@ -11,13 +11,7 @@ import TablaDetalles from "../../Tabla/Detalles";
 import BarraProgreso from "./BarraProgreso";
 import FormulaCard from "./FormulaCard";
 
-const ItemAcordeon = ({
-  indicador,
-  expanded,
-  handleClick,
-  handleSeleccion,
-  handleUpLoad,
-}) => {
+const ItemAcordeon = ({ indicador, expanded, handleClick }) => {
   const { titulo, descripcion, progreso, medios, formula } = indicador;
 
   return (
@@ -35,11 +29,7 @@ const ItemAcordeon = ({
       <AccordionBody>
         <Subtitle marginTop="mt-4">{descripcion}</Subtitle>
         <FormulaCard formula={formula} />
-        <TablaDetalles
-          medios={medios}
-          handleSeleccion={handleSeleccion}
-          handleUpLoad={handleUpLoad}
-        />
+        <TablaDetalles medios={medios} />
       </AccordionBody>
     </Accordion>
   );

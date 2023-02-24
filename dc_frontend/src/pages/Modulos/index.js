@@ -10,7 +10,7 @@ import VistaResultados from "./vistas/Resultados";
 
 import LasTabs from "./Tabs";
 
-import data from "./data.json";
+import data from "./data.json"; //TODO: DATA MODULOS .json to DB
 const dataLiderazgo = data[0];
 const dataGestionPedagogica = data[1];
 const dataConvivenciaEscolar = data[2];
