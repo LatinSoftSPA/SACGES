@@ -2,7 +2,7 @@
   "name": "sacges-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://demo.latinsoft.cl",
+  "homepage": "http://demo.latinsoft.cl",
   "dependencies": {
     "@heroicons/react": "^2.0.14",
     "@tremor/react": "^1.7.0",
