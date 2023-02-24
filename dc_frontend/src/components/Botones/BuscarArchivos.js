@@ -23,6 +23,7 @@ const BuscarArchivos = (props) => {
   const handleUpLoad = () => {
     console.log(archivo);
   };
+
   return (
     <>
       <label htmlFor={id}></label>
