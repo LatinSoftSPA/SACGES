@@ -1,13 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Title, Text } from "@tremor/react";
-import {
-  UserGroupIcon,
-  SwatchIcon,
-  AcademicCapIcon,
-  HeartIcon,
-  SquaresPlusIcon,
-  CircleStackIcon,
-} from "@heroicons/react/24/solid";
 
 import VistaAyuda from "./vistas/Ayuda";
 import VistaLiderazgo from "./vistas/Liderazgo";
@@ -26,22 +18,8 @@ const dataGestionRecursos = data[3];
 const dataResultados = data[4];
 
 const Modulos = ({ bg }) => {
-  const [tabs, setTabs] = useState([]);
   const [selectedView, setSelectedView] = useState(0);
-
   const onValueChange = (e) => setSelectedView(e);
-
-  useEffect(() => {
-    const listado = [
-      { texto: "Liderazgo", icono: AcademicCapIcon },
-      { texto: "Gestión Pedagógica", icono: SwatchIcon },
-      { texto: "Convivencia Escolar", icono: UserGroupIcon },
-      { texto: "Gestión de Recursos", icono: SquaresPlusIcon },
-      { texto: "Resultados", icono: CircleStackIcon },
-      { texto: "Ayuda", icono: HeartIcon },
-    ];
-    setTabs(listado);
-  }, []);
 
   return (
     <main className={`${bg} p-6 sm:p-10`}>
@@ -52,11 +30,7 @@ const Modulos = ({ bg }) => {
         Sistema de Acompañamiento para la Gestión Directiva (SACGes)
       </Text>
       <section className="scrollmenu">
-        <LasTabs
-          tabs={tabs}
-          selectedView={selectedView}
-          onValueChange={onValueChange}
-        />
+        <LasTabs selectedView={selectedView} onValueChange={onValueChange} />
       </section>
       {cambiarVista(selectedView)}
     </main>
