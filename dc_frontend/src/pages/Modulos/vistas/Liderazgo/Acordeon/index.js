@@ -2,7 +2,7 @@ import { AccordionList, ColGrid } from "@tremor/react";
 import CardsData from "../CardData";
 import ItemAcordeon from "./Items";
 
-const AcordeonListado = ({ data, handleSeleccion, handleUpLoad }) => {
+const AcordeonListado = ({ data }) => {
   const { indicadores } = data;
   const aux = indicadores.length;
 
@@ -15,13 +15,7 @@ const AcordeonListado = ({ data, handleSeleccion, handleUpLoad }) => {
       <ColGrid marginTop="mt-5" gapX="gap-x-12" gapY="gap-y-12">
         <AccordionList>
           {indicadores.map((obj, i) => (
-            <ItemAcordeon
-              key={i}
-              expanded={i === 0 ?? false}
-              indicador={obj}
-              handleSeleccion={handleSeleccion}
-              handleUpLoad={handleUpLoad}
-            />
+            <ItemAcordeon key={i} expanded={i === 0 ?? false} indicador={obj} />
           ))}
         </AccordionList>
       </ColGrid>

@@ -14,7 +14,8 @@ import LasTabs from "./Tabs";
 
 import actions from "../../redux/action-creators";
 
-import data from "./data.json";
+import data from "./data.json"; //TODO: DATA MODULOS .json to DB
+
 const dataLiderazgo = data[0];
 const dataGestionPedagogica = data[1];
 const dataConvivenciaEscolar = data[2];

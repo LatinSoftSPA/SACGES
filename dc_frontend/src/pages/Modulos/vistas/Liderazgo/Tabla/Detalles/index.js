@@ -2,7 +2,7 @@ import { Flex, Table, TableBody, TableCell, TableRow } from "@tremor/react";
 
 import BuscarArchivos from "../../../../../../components/Botones/BuscarArchivos";
 
-const TableBase = ({ medios, handleSeleccion, handleUpLoad }) => {
+const TableBase = ({ medios }) => {
   return (
     <>
       <Table marginTop="mt-5">
@@ -15,11 +15,7 @@ const TableBase = ({ medios, handleSeleccion, handleUpLoad }) => {
                 <TableCell> {titulo} </TableCell>
                 <TableCell>
                   <Flex justifyContent="justify-end">
-                    <BuscarArchivos
-                      cargado={cargado}
-                      handleSeleccion={handleSeleccion}
-                      handleUpLoad={handleUpLoad}
-                    />
+                    <BuscarArchivos cargado={cargado} titulo={titulo} />
                   </Flex>
                 </TableCell>
               </TableRow>
