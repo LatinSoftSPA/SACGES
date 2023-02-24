@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Title, Text } from "@tremor/react";
+
+import { useDispatch, useSelector } from "react-redux";
 
 import VistaAyuda from "./vistas/Ayuda";
 import VistaLiderazgo from "./vistas/Liderazgo";
@@ -10,6 +12,8 @@ import VistaResultados from "./vistas/Resultados";
 
 import LasTabs from "./Tabs";
 
+import actions from "../../redux/action-creators";
+
 import data from "./data.json";
 const dataLiderazgo = data[0];
 const dataGestionPedagogica = data[1];
@@ -17,9 +21,20 @@ const dataConvivenciaEscolar = data[2];
 const dataGestionRecursos = data[3];
 const dataResultados = data[4];
 
+const { test } = actions;
+
 const Modulos = ({ bg }) => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(test());
+  }, []);
+
   const [selectedView, setSelectedView] = useState(0);
   const onValueChange = (e) => setSelectedView(e);
+
+  const testStore = useSelector((state) => state.data);
+
+  console.log(testStore);
 
   return (
     <main className={`${bg} p-6 sm:p-10`}>
