@@ -3,58 +3,13 @@ import {
   AccordionHeader,
   AccordionBody,
   Text,
-  ProgressBar,
   Flex,
   Subtitle,
-  Card,
-  Callout,
-  Metric,
-  Italic,
 } from "@tremor/react";
-import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
 import TablaDetalles from "../../Tabla/Detalles";
-
-const BarraProgreso = ({ valor, color }) => {
-  const label = valor + "%";
-  const tooltip = valor + "% Cumplido";
-  return (
-    <div width="150px">
-      <ProgressBar
-        percentageValue={valor}
-        label={label}
-        tooltip={tooltip}
-        showAnimation={true}
-        color={color}
-      />
-    </div>
-  );
-};
-
-const FormulaCard = ({ formula }) => {
-  const { glosa, calculo } = formula;
-  return (
-    <>
-      <Flex justifyContent="justify-center">
-        <Callout
-          title="Formula de Calculo"
-          text={glosa}
-          icon={CheckCircleIcon}
-          height="h-10"
-          color="cyan"
-          marginTop="mt-4"
-        />
-      </Flex>
-      <Card marginTop="mt-4">
-        <Flex justifyContent="justify-center">
-          <Italic>
-            <Metric>{calculo}</Metric>
-          </Italic>
-        </Flex>
-      </Card>
-    </>
-  );
-};
+import BarraProgreso from "./BarraProgreso";
+import FormulaCard from "./FormulaCard";
 
 const ItemAcordeon = ({
   indicador,
@@ -63,7 +18,7 @@ const ItemAcordeon = ({
   handleSeleccion,
   handleUpLoad,
 }) => {
-  const { titulo, descripcion, valor, medios, formula } = indicador;
+  const { titulo, descripcion, progreso, medios, formula } = indicador;
 
   return (
     <Accordion expanded={expanded}>
@@ -73,7 +28,7 @@ const ItemAcordeon = ({
             <Flex>
               <Text>{titulo}</Text>
             </Flex>
-            <BarraProgreso valor={valor} color="green" />
+            <BarraProgreso valor={progreso} color="green" />
           </Flex>
         </AccordionHeader>
       </div>
