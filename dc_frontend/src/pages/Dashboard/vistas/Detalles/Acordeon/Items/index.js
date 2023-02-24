@@ -2,7 +2,6 @@ import {
   Accordion,
   AccordionHeader,
   AccordionBody,
-  Text,
   ProgressBar,
   Flex,
   Subtitle,

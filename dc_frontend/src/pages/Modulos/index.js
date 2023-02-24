@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Title, Text, TabList, Tab } from "@tremor/react";
+import { Title, Text } from "@tremor/react";
 import {
   UserGroupIcon,
   SwatchIcon,
@@ -16,26 +16,14 @@ import VistaConvivenciaEscolar from "./vistas/ConvivenciaEscolar";
 import VistaGestionRecursos from "./vistas/GestionRecursos";
 import VistaResultados from "./vistas/Resultados";
 
+import LasTabs from "./Tabs";
+
 import data from "./data.json";
 const dataLiderazgo = data[0];
 const dataGestionPedagogica = data[1];
 const dataConvivenciaEscolar = data[2];
 const dataGestionRecursos = data[3];
 const dataResultados = data[4];
-
-const LasTabs = ({ tabs, selectedView, onValueChange }) => {
-  return (
-    <TabList
-      variant="scrollable"
-      defaultValue={selectedView}
-      onValueChange={(e) => onValueChange(e)}>
-      {tabs.map((tab, i) => {
-        const { texto, icono } = tab;
-        return <Tab key={i} value={i} text={texto} icon={icono} />;
-      })}
-    </TabList>
-  );
-};
 
 const Modulos = ({ bg }) => {
   const [tabs, setTabs] = useState([]);
