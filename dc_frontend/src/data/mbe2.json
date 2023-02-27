@@ -13,11 +13,48 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Principios de aprendizaje.",
                         "descriptores": [
                             {
                                 "id": 1,
                                 "numero": "1.1",
                                 "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "1.2",
+                                "descripcion": "Comprende las principales teorías de motivación para el aprendizaje y cómo usar sus principios para promover el involucramiento, la persistencia y autoeficacia de sus estudiantes en los procesos de aprendizaje."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "1.3",
+                                "descripcion": "Comprende la importancia de involucrar a sus estudiantes, en procesos de autoevaluación y autorregulación de sus propios aprendizajes."
+                            },
+                            {
+                                "id": 4,
+                                "numero": "1.4",
+                                "descripcion": "Comprende las necesidades educativas de todos sus estudiantes, incluidas las necesidades educativas especiales, como un fenómeno contextualizado, identificando las barreras más frecuentes que obstaculizan la participación y el aprendizaje."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Principios del desarrollo.",
+                        "descriptores": [
+                            {
+                                "id": 5,
+                                "numero": "1.5",
+                                "descripcion": "Comprende los principios, etapas del desarrollo y la interrelación entre las áreas cognitiva, lingüística, social, moral, emocional y física, que le permiten promover el aprendizaje y la formación integral de sus estudiantes."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "1.6",
+                                "descripcion": "Comprende cómo promover, de manera apropiada a la composición etaria de sus estudiantes, el desarrollo de competencias socioemocionales, tales como autoconocimiento, autorregulación, conciencia del otro, habilidades sociales y toma de decisiones responsable."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "1.7",
+                                "descripcion": "Conoce, a través de técnicas de observación, entrevistas y otras fuentes, las características individuales, así como el contexto familiar, cultural y social de sus estudiantes."
                             }
                         ]
                     }
@@ -32,11 +69,69 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Conocimiento disciplinar.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "2.1",
+                                "descripcion": "Comprende los principios de la disciplina que enseña, su desarrollo histórico, y el modo en que se enriquece o expande y sus elementos fundantes."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "2.2",
+                                "descripcion": "Comprende los conocimientos fundamentales de la disciplina que enseña, las habilidades y actitudes que favorecen su aprendizaje y las relaciones entre ellos."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "2.3",
+                                "descripcion": "Demuestra habilidades de investigación, comunicación y pensamiento crítico y actitudes relacionadas con la ética, la rigurosidad y el cuestionamiento, respecto a la disciplina que enseña."
+                            },
+                            {
+                                "id": 4,
+                                "numero": "2.4",
+                                "descripcion": "Identifica las conexiones que se pueden establecer con conocimientos de otras disciplinas, para hacer el contenido accesible, comprensible y significativo para sus estudiantes."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Conocimiento didáctico.",
+                        "descriptores": [
+                            {
+                                "id": 5,
+                                "numero": "2.5",
+                                "descripcion": "Conoce un repertorio de estrategias y recursos didácticos, para representar, modelar, explicar e investigar la disciplina que enseña y para conectar los objetivos de aprendizaje y saberes disciplinares con las características, conocimientos previos y habilidades de sus estudiantes."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "2.6",
+                                "descripcion": "Comprende cómo las herramientas digitales permiten apoyar los procesos de aprendizaje de la disciplina que enseña."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "2.7",
+                                "descripcion": "Identifica las dificultades y concepciones erróneas más frecuentes de la disciplina que enseña, comprende cómo interfieren con el aprendizaje y conoce estrategias para anticiparlas y abordarlas."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "2.8",
+                                "descripcion": "Utiliza un repertorio de estrategias didácticas para lograr que sus estudiantes ejerciten, practiquen y apliquen las habilidades generales del currículum, tales como comunicación, investigación, desarrollo de pensamiento crítico y creativo, y las específicas de la disciplina que enseña."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Conocimiento del currículum.",
+                        "descriptores": [
+                            {
+                                "id": 9,
+                                "numero": "2.9",
+                                "descripcion": "Comprende los fundamentos, la estructura, los conocimientos, las habilidades, las actitudes y la progresión del currículum escolar de la disciplina que enseña."
+                            },
+                            {
+                                "id": 10,
+                                "numero": "2.10",
+                                "descripcion": "Analiza e interpreta los recursos y documentos que acompañan el currículum, tales como planes y programas de estudio, textos escolares y estándares de aprendizaje, en función de las características, necesidades e intereses de sus estudiantes y del proyecto educativo institucional."
                             }
                         ]
                     }
@@ -51,11 +146,64 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Definición de objetivos de aprendizaje.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "3.1",
+                                "descripcion": "Formula, selecciona y secuencia objetivos disciplinares y transversales, considerando conocimientos, habilidades y actitudes, contextualizadas a las características de sus estudiantes, sus aprendizajes previos y coherentes al currículum vigente."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "3.2",
+                                "descripcion": "Relaciona los objetivos de aprendizaje de su disciplina con objetivos de aprendizaje de distintas áreas del currículum."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Diseño de experiencias de aprendizaje.",
+                        "descriptores": [
+                            {
+                                "id": 3,
+                                "numero": "3.3",
+                                "descripcion": "Considera los conocimientos previos e intereses de sus estudiantes al momento de diseñar las experiencias de aprendizaje, para fomentar la relación, extensión y consolidación de aprendizajes anteriores."
+                            },
+                            {
+                                "id": 4,
+                                "numero": "3.4",
+                                "descripcion": "Selecciona las estrategias didácticas más adecuadas en función de los saberes disciplinares, características y necesidades de sus estudiantes, las evidencias generadas a partir de las evaluaciones, y su contexto educativo."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "3.5",
+                                "descripcion": "Diseña experiencias de aprendizaje efectivas y desafiantes, que promuevan el aprendizaje profundo, el compromiso y la disposición positiva hacia el aprendizaje, e incorporen el uso de diversos recursos, incluidas las tecnologías digitales, que potencien distintas formas de aprender."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "3.6",
+                                "descripcion": "Adopta el enfoque de género para seleccionar materiales, recursos, actividades y ejemplos libres de sesgos."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "3.7",
+                                "descripcion": "Diseña experiencias de aprendizaje que desafíen creativamente a sus estudiantes a partir de temáticas relevantes y pertinentes de la comunidad local, regional y/o global relacionadas con la disciplina, a través de proyectos que involucren salidas a terreno, laboratorios, visitas a bibliotecas y museos, entre otros espacios para el aprendizaje."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Organización de la enseñanza.",
+                        "descriptores": [
+                            {
+                                "id": 8,
+                                "numero": "3.8",
+                                "descripcion": "Diseña planificaciones que incluyen de manera coherente, progresiva y secuenciada en el tiempo, objetivos, conocimientos, habilidades y actitudes de la disciplina, estrategias didácticas, actividades de aprendizaje, recursos y tecnologías digitales, realizando adecuaciones para los/as estudiantes que requieren apoyos específicos."
+                            },
+                            {
+                                "id": 9,
+                                "numero": "3.9",
+                                "descripcion": "Organiza los distintos momentos de la clase, distribuyendo el tiempo disponible de manera efectiva, para responder adecuadamente a los ritmos, necesidades y características de sus estudiantes, y cubrir los objetivos de aprendizaje."
                             }
                         ]
                     }
@@ -70,11 +218,53 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Construcción y recopilación de evidencias de aprendizaje.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "4.1",
+                                "descripcion": "Planifica la evaluación considerando los momentos adecuados y diversas técnicas e instrumentos para esta, incluyendo la auto y coevaluación por parte de sus estudiantes, de modo que todos puedan demostrar lo que han aprendido y sus resultados aporten información oportuna y pertinente respecto del avance y logro de los objetivos de aprendizaje."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "4.2",
+                                "descripcion": "Diseña evaluaciones que permitan diversificar y ampliar la evidencia, formativas, para monitorear y hacer seguimiento del aprendizaje, y sumativas, para recoger información sobre el nivel de logro de los objetivos de aprendizaje."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "4.3",
+                                "descripcion": "Adecua, en colaboración con otros profesionales, las estrategias y procedimientos de evaluación para diagnosticar, retroalimentar oportunamente y calificar el aprendizaje de los/as estudiantes que requieren apoyos específicos."
+                            },
+                            {
+                                "id": 4,
+                                "numero": "4.4",
+                                "descripcion": "Construye, selecciona y adecua criterios e indicadores pertinentes y libres de sesgos, que entreguen información relevante para orientar la observación del aprendizaje, ofrecer a sus estudiantes retroalimentación descriptiva oportuna y evaluar el logro de los objetivos de aprendizaje."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Análisis de evidencias de aprendizaje y retroalimentación.",
+                        "descriptores": [
+                            {
+                                "id": 5,
+                                "numero": "4.5",
+                                "descripcion": "Analiza los datos y evidencias que aportan las evaluaciones, para identificar brechas entre los aprendizajes esperados y los efectivamente logrados, así como cambios respecto a evaluaciones anteriores, y para mejorar los procedimientos y técnicas evaluativas que utiliza."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "4.6",
+                                "descripcion": "Planifica distintas instancias -orales y escritas, individuales y grupalespara entregar a sus estudiantes retroalimentación sistemática y oportuna, que les sirva para reflexionar y regular sus propios aprendizajes."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "4.7",
+                                "descripcion": "Atiende la dimensión ética de la evaluación y del uso de las evidencias para interpretar los resultados, examinando y corrigiendo tendencias y posibles sesgos que puedan reflejar inequidades en las oportunidades de aprendizaje."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "4.8",
+                                "descripcion": "Determina procedimientos para calificar el desempeño de sus estudiantes, utilizando criterios de evaluación de modo justo, riguroso y transparente, y que comuniquen con precisión a través de un número, símbolo o concepto, el nivel de logro de los aprendizajes."
                             }
                         ]
                     }
@@ -96,11 +286,79 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Promoción de un ambiente de respeto y valoración de la diversidad.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "5.1",
+                                "descripcion": "Promueve relaciones de respeto, cercanía, honestidad y equidad en las interacciones dentro y fuera del aula."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "5.2",
+                                "descripcion": "Reconoce y valora la diversidad en cuanto a género y orientación sexual, etnia, nacionalidad, cultura, religión, características físicas y socioeconómicas, entre otras."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "5.3",
+                                "descripcion": "Aborda oportunamente situaciones que ponen en riesgo el ambiente de respeto en el aula y cualquier manifestación de discriminación, favoreciendo la comprensión de cómo los prejuicios y estereotipos atentan contra la dignidad de las personas y el bienestar de la comunidad."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Promoción de un ambiente para la buena convivencia.",
+                        "descriptores": [
+                            {
+                                "id": 4,
+                                "numero": "5.4",
+                                "descripcion": "Promueve oportunidades para que sus estudiantes desarrollen conocimientos, habilidades y actitudes que les permitan establecer relaciones constructivas para una sana convivencia."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "5.5",
+                                "descripcion": "Modela estrategias para la resolución dialogada y pacífica de conflictos en espacios presenciales y virtuales, y promueve que sus estudiantes las utilicen."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "5.6",
+                                "descripcion": "Previene situaciones de conflicto a través de normas claras y consistentes, coherentes con las orientaciones del establecimiento, y aborda efectivamente conductas y actitudes que son contrarias a la convivencia."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "5.7",
+                                "descripcion": "Construye con sus estudiantes una visión compartida sobre el tipo de convivencia que se quiere promover y sobre la necesidad de corresponsabilidad para lograrla."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "5.8",
+                                "descripcion": "Involucra a padres, madres y apoderados en una reflexión sobre el rol complementario del hogar y el centro educativo en la promoción de una buena convivencia y en el abordaje y solución de posibles quiebres de la convivencia."
+                            },
+                            {
+                                "id": 9,
+                                "numero": "5.9",
+                                "descripcion": "Monitorea constantemente la convivencia y analiza la efectividad de las estrategias que utiliza para promover el trato respetuoso, prevenir y resolver conflictos."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Gestión de un ambiente organizado.",
+                        "descriptores": [
+                            {
+                                "id": 10,
+                                "numero": "5.10",
+                                "descripcion": "Establece con claridad las responsabilidades que sus estudiantes deben asumir respecto de su aprendizaje y proceso formativo, definiendo tiempos o hitos relevantes que ellos/as deben considerar."
+                            },
+                            {
+                                "id": 11,
+                                "numero": "5.11",
+                                "descripcion": "Establece rutinas y estrategias para la secuenciación y transiciones entre actividades, para optimizar el uso de los recursos educativos, la organización de los/as estudiantes y la disposición del espacio."
+                            },
+                            {
+                                "id": 12,
+                                "numero": "5.12",
+                                "descripcion": "Identifica y modifica factores del aula que interfieren con el uso efectivo del tiempo lectivo, y previene potenciales situaciones de distracción de los estudiantes."
                             }
                         ]
                     }
@@ -115,11 +373,53 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Apoyo al desarrollo socioemocional.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "6.1",
+                                "descripcion": "Observa y comprende el estado emocional de sus estudiantes y sus variaciones, para establecer vínculos significativos y profundos con ellos/as."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "6.2",
+                                "descripcion": "Promueve que sus estudiantes practiquen habilidades sociales tales como la escucha, la empatía y la asertividad, en sus interacciones con pares y adultos"
+                            },
+                            {
+                                "id": 3,
+                                "numero": "6.3",
+                                "descripcion": "Implementa estrategias para que sus estudiantes desarrollen habilidades para identificar sus aptitudes e intereses personales, reconocer y regular sus emociones, tomar decisiones en forma responsable y autónoma, establecer relaciones positivas, manejar situaciones desafiantes y cuidar de sí mismo, tanto física como mentalmente."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Comunicación con familias y apoderados.",
+                        "descriptores": [
+                            {
+                                "id": 4,
+                                "numero": "6.4",
+                                "descripcion": "Promueve oportunidades para que sus estudiantes desarrollen conocimientos y habilidades que les permitan valorar la diversidad y establecer relaciones constructivas con personas de diferentes grupos culturales y étnicos en una sociedad multicultural."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "6.5",
+                                "descripcion": "Promueve experiencias formativas virtuales y presenciales vinculadas al desarrollo de los valores de la vida democrática y el respeto por los derechos humanos."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "6.6",
+                                "descripcion": "Promueve oportunidades para que sus estudiantes conozcan sus derechos y responsabilidades, participando de forma ética, responsable, tolerante y solidaria en la comunidad escolar."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "6.7",
+                                "descripcion": "Promueve oportunidades para que sus estudiantes desarrollen actitudes y conductas de responsabilidad personal y social, orientadas al cuidado y preservación del medio ambiente y sus recursos."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "6.8",
+                                "descripcion": "Promueve oportunidades para que sus estudiantes desarrollen habilidades necesarias para desenvolverse como ciudadanos digitales capaces de resolver problemas de información, comunicación y conocimiento, así como dilemas legales, sociales y éticos en ambiente virtual."
                             }
                         ]
                     }
@@ -140,12 +440,86 @@
                 "descripcion": "El/la docente utiliza una diversidad de recursos orales, escritos y/o visuales para comunicar los objetivos, las instrucciones y los conocimientos disciplinares, e indagar respecto de los saberes previos de los estudiantes, utilizando el lenguaje de la disciplina y una variedad de estrategias didácticas. Demuestra altas expectativas respecto al potencial de aprendizaje de todos sus estudiantes y para ello les presenta actividades desafiantes que promuevan el aprendizaje profundo y autónomo a través de la participación activa, tanto individual como colaborativamente, y en diversos contextos como laboratorios, salidas a terreno, entre otros. Monitorea constantemente cómo evoluciona el aprendizaje de sus estudiantes, para ajustar oportuna y pertinentemente sus prácticas pedagógicas y responder a las diferencias individuales.",
                 "focos": [
                     {
-                        "id": 7,
+                        "id": 1,
+                        "titulo": "Comunica y demuestra altas expectativas.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "7.1",
+                                "descripcion": "Comunica y demuestra altas expectativas de aprendizaje a todos sus estudiantes y los/as ayuda a abordar los desafíos como una oportunidad para reflexionar acerca de los esfuerzos necesarios para alcanzar dichas expectativas."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "7.2",
+                                "descripcion": "Aplica estrategias motivacionales y consigue involucramiento, perseverancia y compromiso con las actividades de aprendizaje de parte de sus estudiantes."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "7.3",
+                                "descripcion": "Implementa estrategias para fortalecer la autoestima académica y autoeficacia mediante el reconocimiento explícito de los logros de sus estudiantes y la reafirmación de su capacidad para enfrentar desafíos y tener altas expectativas de sí mismos/as"
+                            },
+                            {
+                                "id": 4,
+                                "numero": "7.4",
+                                "descripcion": "Ayuda a sus estudiantes a identificar expectativas y comportamientos basados en creencias sobre género que generan desigualdad de oportunidades entre hombres y mujeres."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Comunicación de objetivos, instrucciones y conocimientos.",
+                        "descriptores": [
+                            {
+                                "id": 5,
+                                "numero": "7.5",
+                                "descripcion": "Comunica con claridad los objetivos de aprendizaje y comprueba que sus estudiantes los comprenden y pueden relacionarlos con sus propias metas."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "7.6",
+                                "descripcion": "Entrega indicaciones e instrucciones claras y verifica que los estudiantes las comprendan para organizar su trabajo y usar productivamente el tiempo lectivo, atendiendo diferencias y ofreciendo apoyos específicos a los y las estudiantes que los requieran."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "7.7",
+                                "descripcion": "Explora, mediante diversos recursos pedagógicos atingentes a la disciplina que enseña, experiencias, conocimientos previos, disposiciones e intereses de los/as estudiantes, para detectar concepciones erróneas y realizar conexiones significativas con el nuevo conocimiento."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "7.8",
+                                "descripcion": "Presenta el contenido mediante el lenguaje técnico de la disciplina que enseña, ejemplos para identificar patrones, esquemas para organizar la información, relaciones con otros saberes disciplinarios, modelamiento, demostración, observación y manipulación de material concreto, entre otros."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Participación de los/as estudiantes.",
+                        "descriptores": [
+                            {
+                                "id": 9,
+                                "numero": "7.9",
+                                "descripcion": "Involucra a los/as estudiantes en el uso de los conocimientos, habilidades y actitudes, a través de preguntas, producciones escritas, elaboración de modelos, uso de herramientas tecnológicas, expresiones y creaciones plásticas, manifestaciones motrices, entre otras, para favorecer una comprensión profunda de los conocimientos disciplinares."
+                            },
+                            {
+                                "id": 10,
+                                "numero": "7.10",
+                                "descripcion": "Organiza el trabajo de los/as estudiantes, equilibrando momentos de aprendizaje individual y colaborativo, a través de tareas que impliquen prácticas reflexivas, comunicación de ideas, elaboración de productos, trabajo interdisciplinario y otras actividades propias de cada disciplina, en contextos de aula diversos, como laboratorios, salidas a terreno u otros."
+                            },
+                            {
+                                "id": 11,
+                                "numero": "7.11",
+                                "descripcion": "Apoya el desarrollo de los estudiantes para transitar gradualmente desde un trabajo guiado a uno autónomo, utilizando diversos recursos educativos e incluyendo las tecnologías digitales, para posibilitar la aplicación y reelaboración de los conocimientos adquiridos y el logro de nuevos aprendizajes."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "titulo": "Ajuste de la práctica pedagógica.",
+                        "descriptores": [
+                            {
+                                "id": 5,
+                                "numero": "7.12",
+                                "descripcion": "Ajusta su práctica pedagógica en función de las situaciones contextuales, las respuestas de los/as estudiantes y las evidencias que recopila mediante el monitoreo de sus progresos, para atender a sus ritmos de aprendizaje, sus diferencias individuales y sus necesidades de apoyo formativo."
                             }
                         ]
                     }
@@ -159,12 +533,55 @@
                 "descripcion": "El/la docente desafía a sus estudiantes para potenciar el desarrollo de un pensamiento crítico y creativo, generando espacios que les permitan manifestarse de manera autónoma, tensionar el contenido en estudio desde diversas perspectivas y enfoques, argumentar y contra argumentar avalándose en evidencias, generar ideas originales y útiles, identificar problemas y desarrollar soluciones innovadoras. Al mismo tiempo, estimula la metacognición en sus estudiantes, invitándolos/as a reflexionar respecto de sus modos de conocer el mundo, y favoreciendo el análisis, monitoreo y evaluación de su propio aprendizaje. Todas las habilidades del pensamiento descritas tienen como referentes para su aplicación el currículum de la disciplina correspondiente.",
                 "focos": [
                     {
-                        "id": 7,
+                        "id": 1,
+                        "titulo": "Pensamiento crítico.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "8.1",
+                                "descripcion": "Incorpora en sus prácticas pedagógicas diferentes enfoques para la promoción del pensamiento crítico, los que dicen relación con procedimientos de análisis de distintas fuentes de información, la argumentación y contra argumentación, el uso de evidencias para fundamentar sus opiniones, y la negociación de"
+                            },
+                            {
+                                "id": 2,
+                                "numero": "8.2",
+                                "descripcion": "Implementa estrategias didácticas, tales como formular preguntas para cuestionar y/o evaluar diversos argumentos, formular debates grupales sobre problemáticas concretas y desafiar teorías existentes, para promover el pensamiento crítico en función de los objetivos de aprendizaje disciplinarios y transversales y de la diversidad de sus estudiantes."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "8.3",
+                                "descripcion": "Genera espacios de interacción pedagógica para la elaboración de juicios críticos, basados en la reflexión y uso del error, de modo de favorecer en los estudiantes la capacidad de estar abiertos/as a los cambios y de tomar decisiones razonadas."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Pensamiento creativo.",
+                        "descriptores": [
+                            {
+                                "id": 4,
+                                "numero": "8.4",
+                                "descripcion": "Implementa estrategias de enseñanza que estimulen el pensamiento creativo en varios niveles, esto es, imitación, variación, combinación, transformación y creación original, de acuerdo al nivel educativo, los objetivos de aprendizaje y las particularidades de sus estudiantes"
+                            },
+                            {
+                                "id": 5,
+                                "numero": "8.5",
+                                "descripcion": "Incorpora en su práctica pedagógica diversas actividades que promuevan la creación original en sus estudiantes, tales como producción artística y literaria, resolución de preguntas abiertas, elaboración de proyectos, generación de ideas y soluciones originales, para el logro de los objetivos de aprendizaje."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Metacognición.",
+                        "descriptores": [
+                            {
+                                "id": 6,
+                                "numero": "8.6",
+                                "descripcion": "Incorpora en sus prácticas pedagógicas diferentes enfoques que informen a sus estudiantes de manera intencional, reflexiva y gradual sobre cómo se aproximan a los problemas y generan soluciones, de modo que desarrollen sus habilidades metacognitivas."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "8.7",
+                                "descripcion": "Implementa estrategias de enseñanza que permitan a sus estudiantes conocer y practicar distintas estrategias de aprendizaje, identificar aquellas más apropiadas para distintas metas, e identificar y resolver problemas de comprensión de las actividades, para hacerlos/as progresivamente más autónomos frente a la construcción de conocimiento."
                             }
                         ]
                     }
@@ -178,12 +595,60 @@
                 "descripcion": "El/la docente utiliza una variedad de estrategias de evaluación y retroalimentación durante las actividades de aprendizaje, que le permitan obtener evidencia del logro de los objetivos, tomar decisiones y reducir brechas de aprendizaje. Continuamente entrega retroalimentación oportuna y descriptiva a sus estudiantes, sugiriéndoles opciones para continuar aprendiendo, y potenciando la perseverancia en tareas desafiantes, con el fin de mantener su involucramiento hasta completarlas. Además, comunica indicadores de éxito específicos y precisos, para que sus estudiantes puedan monitorear sus avances, ajustar su proceso de aprendizaje y utilizar diversas estrategias de auto y coevaluación, de modo que adquieran autonomía y responsabilidad. Según avanzan en su desarrollo, incentiva a sus estudiantes a determinar indicadores y criterios evaluativos con el propósito de que logren una mejor comprensión de las expectativas y para promover una mayor transparencia en el proceso evaluativo.",
                 "focos": [
                     {
-                        "id": 7,
+                        "id": 1,
+                        "titulo": "Criterios de evaluación y monitoreo del aprendizaje.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "9.1",
+                                "descripcion": "Explica a sus estudiantes los criterios de evaluación, alineados al objetivo de aprendizaje, entregándoles ejemplos de los desempeños esperados para que gradualmente participen de la definición de estos criterios."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "9.2",
+                                "descripcion": "Comprueba durante la clase, mediante preguntas o actividades relevantes, el nivel de comprensión de sus estudiantes e identifica dificultades y errores para reorientar la enseñanza."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "9.3",
+                                "descripcion": "Utiliza los resultados del monitoreo para realizar actividades adicionales y diferenciadas o para reorganizar las experiencias de aprendizaje, entregando apoyos según los ritmos, características y necesidades de sus estudiantes."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Retroalimentación.",
+                        "descriptores": [
+                            {
+                                "id": 4,
+                                "numero": "9.4",
+                                "descripcion": "Ofrece a sus estudiantes retroalimentación descriptiva de manera oportuna, basándose en criterios e indicadores de evaluación, para que dispongan de información diferenciada sobre los niveles de logro de los conocimientos, habilidades y actitudes definidos en los objetivos de aprendizaje evaluados; y para establecer estrategias que les permitan superar las brechas."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "9.5",
+                                "descripcion": "Comunica a sus estudiantes las calificaciones obtenidas, asegurándose de que comprendan el número, símbolo o concepto que representa el nivel de logro del aprendizaje, para que ellos/as definan sus propias metas de superación y se comprometan con los siguientes procesos de aprendizaje."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "9.6",
+                                "descripcion": "Desarrolla estrategias oportunas para abordar los potenciales efectos de la evaluación y las calificaciones en las emociones y motivación de los estudiantes, con el fin de proteger su autoestima académica y promover la perseverancia en el aprendizaje de la disciplina que enseña."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Autoevaluación de los aprendizajes.",
+                        "descriptores": [
+                            {
+                                "id": 7,
+                                "numero": "9.7",
+                                "descripcion": "Enseña y guía a sus estudiantes a usar criterios, indicadores y atributos para procesos de auto y coevaluación, con el propósito de observar su aprendizaje y el de otros, y determinar los aprendizajes logrados y los que requieren mejoras."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "9.8",
+                                "descripcion": "Genera oportunidades para que sean los propios estudiantes quienes, en los trabajos grupales, establezcan, total o parcialmente, criterios, indicadores y atributos para la evaluación del logro del aprendizaje y del trabajo realizado."
                             }
                         ]
                     }
@@ -205,11 +670,58 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Ética profesional.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "10.1",
+                                "descripcion": "Toma decisiones basadas en consensos éticos de la profesión y los derechos de los/as niños/as para proteger el mejor interés de sus estudiantes y el bienestar de todos los integrantes de la comunidad escolar."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "10.2",
+                                "descripcion": "Respeta los límites que corresponden a su rol profesional, en todas las interacciones con sus estudiantes, otros profesionales, familias y apoderados."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "10.3",
+                                "descripcion": "Reconoce toda manifestación de la diversidad en estudiantes, familias y pares, demostrando respeto por todos los miembros de la comunidad escolar y una actuación profesional sustentada en valores inclusivos."
+                            },
+                            {
+                                "id": 4,
+                                "numero": "10.4",
+                                "descripcion": "Demuestra compromiso con el aprendizaje de todos sus estudiantes, con la equidad en la calidad de la educación que reciben y actúa con la convicción que todos pueden alcanzar altos niveles de aprendizaje."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "10.5",
+                                "descripcion": "Participa de manera ética en los procesos evaluativos contemplados en la norma vigente para su desempeño profesional y en los procesos evaluativos del centro escolar."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "10.6",
+                                "descripcion": "Cumple con las normas y responsabilidades profesionales establecidas en la institución educativa donde trabaja, para la realización de las tareas comprometidas."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Marco regulatorio.",
+                        "descriptores": [
+                            {
+                                "id": 7,
+                                "numero": "10.7",
+                                "descripcion": "Comprende y actúa en consistencia con el proyecto educativo institucional, marcos legales y las políticas que regulan la profesión docente en Chile."
+                            },
+                            {
+                                "id": 8,
+                                "numero": "10.8",
+                                "descripcion": "Conoce y aplica la normativa vigente respecto de la obligación para todo quien se desempeña en establecimientos educacionales de denunciar oportunamente hechos con características de maltrato infantil o cualquier otro delito que afecte a niños, niñas y adolescentes."
+                            },
+                            {
+                                "id": 9,
+                                "numero": "10.9",
+                                "descripcion": "Respeta las normas y políticas existentes sobre el uso de tecnologías digitales y se asegura de que sus estudiantes accedan y utilicen las tecnologías digitales de manera segura, ética y legal."
                             }
                         ]
                     }
@@ -224,11 +736,59 @@
                 "focos": [
                     {
                         "id": 1,
+                        "titulo": "Práctica Reflexiva.",
                         "descriptores": [
                             {
                                 "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                                "numero": "11.1",
+                                "descripcion": "Conoce y aplica técnicas de observación y registro de las actividades del aula para informar el análisis y reflexión sobre el impacto de su enseñanza en el aprendizaje de sus estudiantes."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "11.2",
+                                "descripcion": "Indaga y reflexiona, de manera individual y colectiva, sobre su práctica, para revisar sus creencias, generar nuevos conocimientos, transformar su ejercicio profesional y mejorar las oportunidades de aprendizaje que ofrece a sus estudiantes."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "11.3",
+                                "descripcion": "Autoevalúa su desempeño teniendo como referencia los estándares de desempeño profesional descritos en el Marco para la Buena Enseñanza, los resultados de la observación y retroalimentación de clases, las evaluaciones externas, su experiencia de aula, las opiniones de sus estudiantes, así como sus propias metas y valores profesionales."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Actualización y profundización de los saberes profesionales.",
+                        "descriptores": [
+                            {
+                                "id": 4,
+                                "numero": "11.4",
+                                "descripcion": "Actualiza y profundiza sus conocimientos disciplinares y didácticos, del currículum vigente, y del uso de las herramientas digitales, para apoyar el aprendizaje y desarrollo integral de sus estudiantes."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "11.5",
+                                "descripcion": "Adhiere y se compromete con el cumplimiento de los planes de desarrollo profesional individuales y/o colectivos establecidos en la institución donde trabaja."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "11.6",
+                                "descripcion": "Muestra disposición a innovar en sus prácticas pedagógicas, para enfrentar problemáticas o desafíos que requieren recurrir a nuevas comprensiones y prácticas."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "titulo": "Trabajo Colaborativo.",
+                        "descriptores": [
+                            {
+                                "id": 4,
+                                "numero": "11.7",
+                                "descripcion": "Promueve y participa en instancias que permiten ampliar el aprendizaje profesional individual y colectivo, a través de la colaboración con pares, tanto de su disciplina como de otras áreas; la participación en redes presenciales o virtuales; y el apoyo a docentes en formación y principiantes."
+                            },
+                            {
+                                "id": 5,
+                                "numero": "11.8",
+                                "descripcion": "Colabora con sus pares y otros profesionales para diversificar las estrategias de enseñanza y evaluación, y para articular saberes entre disciplinas, de manera de responder adecuadamente a las necesidades educativas de sus estudiantes."
                             }
                         ]
                     }
@@ -243,8 +803,50 @@
                 "focos": [
                     {
                         "id": 1,
-                        "titulo": "",
-                        "descriptores": []
+                        "titulo": "Compromiso con la mejora continua de la institución educativa.",
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "12.1",
+                                "descripcion": "Establece relaciones profesionales saludables y gratificantes con todos los integrantes de la institución educativa, basadas en la confianza, la discreción respecto a situaciones personales y familiares, y la prevención y la resolución de conflictos."
+                            },
+                            {
+                                "id": 2,
+                                "numero": "12.2",
+                                "descripcion": "Adhiere al proyecto educativo del centro educativo y participa en las distintas instancias que promueve la dirección para la elaboración de los diversos instrumentos de planificación y acciones de mejora continua, en aras de un desarrollo sostenible (ej. Proyecto Educativo Institucional, Plan de Mejoramiento Educativo, Plan de Formación Ciudadana, entre otros)."
+                            },
+                            {
+                                "id": 3,
+                                "numero": "12.3",
+                                "descripcion": "Analiza con sus pares las evidencias que entregan las evaluaciones externas, para desarrollar una visión más completa del aprendizaje que logran sus estudiantes e identificar oportunidades de mejora."
+                            },
+                            {
+                                "id": 4,
+                                "numero": "12.4",
+                                "descripcion": "Participa en las distintas actividades definidas en el Plan de Mejoramiento Educativo para el logro de las metas institucionales que están directamente relacionadas con sus responsabilidades profesionales."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "titulo": "Comunicación con familias y apoderados.",
+                        "descriptores": [
+                            {
+                                "id": 5,
+                                "numero": "12.5",
+                                "descripcion": "Diseña instancias para la comunicación respetuosa y culturalmente pertinente con las familias y apoderados, que le permitan escuchar sus preocupaciones, dar respuesta a sus inquietudes y trabajar mancomunadamente con diversas redes de apoyo en el fomento del desarrollo integral de sus estudiantes dentro y fuera del centro educativo."
+                            },
+                            {
+                                "id": 6,
+                                "numero": "12.6",
+                                "descripcion": "Informa a las familias y apoderados sobre el progreso académico de sus estudiantes y su comportamiento, y propicia su participación en actividades curriculares y extracurriculares, para apoyar el aprendizaje y desarrollo de los estudiantes."
+                            },
+                            {
+                                "id": 7,
+                                "numero": "12.7",
+                                "descripcion": "Trabaja con las familias y apoderados sobre la importancia de tener expectativas similares de las niñas y los niños, en relación con las elecciones que hacen respecto a las opciones académicas que ofrece el currículum escolar, con el objetivo de influir positivamente en el aprendizaje y desarrollo de sus estudiantes."
+                            }
+                        ]
                     }
                 ]
             }
