@@ -1,10 +1,68 @@
 [
     {
         "dominio": "DOMINIO A",
+        "titulo": "Preparación del proceso de enseñanza y aprendizaje.",
+        "descripcion": "",
         "estandares": [
             {
                 "id": 1,
                 "estandar": "Estándar 1",
+                "titulo": "Aprendizaje y desarrollo de los/as estudiantes.",
+                "descripcion": "Comprende cómo aprenden los/as estudiantes, los factores educativos, familiares, sociales y culturales que influyen en su desarrollo, y la importancia de atender a diferencias individuales en el diseño de los procesos de enseñanza y aprendizaje.",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "estandar": "Estándar 2",
+                "titulo": "Conocimiento disciplinar, didáctico y del currículum escolar.",
+                "descripcion": "Demuestra una comprensión amplia, profunda y crítica de los conocimientos, habilidades y actitudes de la disciplina que enseña, su didáctica y el currículum escolar vigente, con el propósito de hacer el saber disciplinar accesible y significativo para todos sus estudiantes.",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "estandar": "Estándar 3",
+                "titulo": "Planificación de la enseñanza.",
+                "descripcion": "Planifica experiencias de aprendizaje efectivas, inclusivas y culturalmente pertinentes para el logro de los objetivos de aprendizaje, considerando el conocimiento disciplinar y didáctico, el currículum vigente, el contexto, las características y conocimientos previos de sus estudiantes y la evidencia generada a partir de las evaluaciones.",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "estandar": "Estándar 4",
+                "titulo": "Planificación de la evaluación.",
+                "descripcion": "Planifica la evaluación, incorporando diversas modalidades que permitan producir evidencias alineadas con los objetivos de aprendizaje, monitorear el nivel de logro de estos y retroalimentar a sus estudiantes.",
                 "focos": [
                     {
                         "id": 1,
@@ -22,10 +80,32 @@
     },
     {
         "dominio": "DOMINIO B",
+        "titulo": "Creación de un ambiente propicio para el aprendizaje.",
+        "descripcion": "",
         "estandares": [
             {
-                "id": 1,
-                "estandar": "Estándar 1",
+                "id": 5,
+                "estandar": "Estándar 5",
+                "titulo": "Ambiente respetuoso y organizado.",
+                "descripcion": "Establece un ambiente de aula respetuoso, inclusivo y organizado, para favorecer el aprendizaje de sus estudiantes y su compromiso con la promoción de la buena convivencia.",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "estandar": "Estándar 6",
+                "titulo": "Desarrollo personal y social.",
+                "descripcion": "Promueve el desarrollo personal y social de sus estudiantes, favoreciendo su bienestar y fomentando competencias socioemocionales, actitudes y hábitos necesarios para el ejercicio de la ciudadanía, vida democrática, cuidado por el medio ambiente y valoración por la diversidad.",
                 "focos": [
                     {
                         "id": 1,
@@ -43,10 +123,111 @@
     },
     {
         "dominio": "DOMINIO C",
+        "titulo": "Enseñanza para el aprendizaje de todos/as los/as estudiantes.",
+        "descripcion": "",
         "estandares": [
             {
-                "id": 1,
-                "estandar": "Estándar 1",
+                "id": 7,
+                "estandar": "Estándar 7",
+                "titulo": "Estrategias de enseñanza para el logro de aprendizajes profundos.",
+                "descripcion": "Implementa estrategias de enseñanza basadas en una comunicación clara y precisa, para atender las diferencias individuales y promover altas expectativas, participación y colaboración de los/las estudiantes en actividades inclusivas y desafiantes orientadas al logro de aprendizajes profundos.",
+                "focos": [
+                    {
+                        "id": 7,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "estandar": "Estándar 8",
+                "titulo": "Estrategias para el desarrollo de habilidades del pensamiento.",
+                "descripcion": "Desafía a sus estudiantes promoviendo el desarrollo del pensamiento crítico, creativo y la metacognición, basándose en los conocimientos de la disciplina que enseña, para que aprendan de manera comprensiva, reflexiva y con creciente autonomía.",
+                "focos": [
+                    {
+                        "id": 7,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "estandar": "Estándar 9",
+                "titulo": "Evaluación y retroalimentación para el aprendizaje.",
+                "descripcion": "Utiliza la evaluación y la retroalimentación para monitorear y potenciar el aprendizaje, basándose en criterios evaluativos y evidencia relevante, ajustando apoyos de manera oportuna y específica, y propiciando la autoevaluación en los/as estudiantes.",
+                "focos": [
+                    {
+                        "id": 7,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dominio": "DOMINIO D",
+        "titulo": "Responsabilidades profesionales.",
+        "descripcion": "",
+        "estandares": [
+            {
+                "id": 10,
+                "estandar": "Estándar 10",
+                "titulo": "Ética profesional.",
+                "descripcion": "Actúa éticamente, resguardando los derechos de todos sus estudiantes, su bienestar y el de la comunidad escolar, en consonancia con el proyecto educativo institucional, la legislación vigente y el marco regulatorio para la educación escolar.",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "estandar": "Estándar 11",
+                "titulo": "Aprendizaje profesional continuo.",
+                "descripcion": "Demuestra compromiso con su aprendizaje profesional continuo, transformando sus prácticas a través de la reflexión sistemática, la colaboración y la participación en diversas instancias de desarrollo profesional para la mejora del aprendizaje de los estudiantes.",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "estandar": "Estándar 12",
+                "titulo": "Compromiso con el mejoramiento continuo de la comunidad escolar.",
+                "descripcion": "Demuestra compromiso con la comunidad escolar, mediante la participación en iniciativas de desarrollo y mejoramiento continuo del centro educativo, asumiendo una responsabilidad compartida con estudiantes, docentes, directivos, familias y apoderados por el logro de las metas institucionales.",
                 "focos": [
                     {
                         "id": 1,
