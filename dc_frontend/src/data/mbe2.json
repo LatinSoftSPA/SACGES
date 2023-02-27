@@ -1,0 +1,65 @@
+[
+    {
+        "dominio": "DOMINIO A",
+        "estandares": [
+            {
+                "id": 1,
+                "estandar": "Estándar 1",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dominio": "DOMINIO B",
+        "estandares": [
+            {
+                "id": 1,
+                "estandar": "Estándar 1",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dominio": "DOMINIO C",
+        "estandares": [
+            {
+                "id": 1,
+                "estandar": "Estándar 1",
+                "focos": [
+                    {
+                        "id": 1,
+                        "descriptores": [
+                            {
+                                "id": 1,
+                                "numero": "1.1",
+                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
