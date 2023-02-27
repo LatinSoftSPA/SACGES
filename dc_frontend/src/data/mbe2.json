@@ -8,7 +8,8 @@
                 "id": 1,
                 "estandar": "Estándar 1",
                 "titulo": "Aprendizaje y desarrollo de los/as estudiantes.",
-                "descripcion": "Comprende cómo aprenden los/as estudiantes, los factores educativos, familiares, sociales y culturales que influyen en su desarrollo, y la importancia de atender a diferencias individuales en el diseño de los procesos de enseñanza y aprendizaje.",
+                "objetivo": "Comprende cómo aprenden los/as estudiantes, los factores educativos, familiares, sociales y culturales que influyen en su desarrollo, y la importancia de atender a diferencias individuales en el diseño de los procesos de enseñanza y aprendizaje.",
+                "descripcion": "El/la docente comprende cómo aprenden y se desarrollan los/as estudiantes según los diversos enfoques teóricos existentes y cómo estos aportan a la enseñanza de su disciplina. Asimismo, sabe cómo motivar a sus estudiantes para comprometerlos con sus procesos de aprendizaje. Este conocimiento se pone en acción cuando identifica las necesidades educativas, intereses y conocimientos previos de sus estudiantes y cuando considera su contexto familiar, cultural y social. Estos aspectos le permiten preparar el proceso de enseñanza atendiendo a las diferencias individuales para apoyar el aprendizaje y la formación integral de cada estudiante.",
                 "focos": [
                     {
                         "id": 1,
@@ -26,7 +27,8 @@
                 "id": 2,
                 "estandar": "Estándar 2",
                 "titulo": "Conocimiento disciplinar, didáctico y del currículum escolar.",
-                "descripcion": "Demuestra una comprensión amplia, profunda y crítica de los conocimientos, habilidades y actitudes de la disciplina que enseña, su didáctica y el currículum escolar vigente, con el propósito de hacer el saber disciplinar accesible y significativo para todos sus estudiantes.",
+                "objetivo": "Demuestra una comprensión amplia, profunda y crítica de los conocimientos, habilidades y actitudes de la disciplina que enseña, su didáctica y el currículum escolar vigente, con el propósito de hacer el saber disciplinar accesible y significativo para todos sus estudiantes.",
+                "descripcion": "El/la docente demuestra un amplio dominio de los conocimientos, habilidades y actitudes que caracterizan la disciplina que enseña. Sabe cómo enseñarla y es capaz de emplear un repertorio diverso de estrategias didácticas, teorías pedagógicas, recursos y tecnologías digitales, para hacer el contenido disciplinar accesible, comprensible y significativo para la diversidad de sus estudiantes, y concordante con las definiciones del proyecto educativo institucional. A partir de este conocimiento, construye nuevas relaciones entre el contenido de la materia que enseña con las necesidades y visiones de mundo de sus estudiantes. De este modo, posibilita la preparación de un proceso de enseñanza pertinente para el aprendizaje de todos/as sus estudiantes.",
                 "focos": [
                     {
                         "id": 1,
@@ -44,7 +46,8 @@
                 "id": 3,
                 "estandar": "Estándar 3",
                 "titulo": "Planificación de la enseñanza.",
-                "descripcion": "Planifica experiencias de aprendizaje efectivas, inclusivas y culturalmente pertinentes para el logro de los objetivos de aprendizaje, considerando el conocimiento disciplinar y didáctico, el currículum vigente, el contexto, las características y conocimientos previos de sus estudiantes y la evidencia generada a partir de las evaluaciones.",
+                "objetivo": "Planifica experiencias de aprendizaje efectivas, inclusivas y culturalmente pertinentes para el logro de los objetivos de aprendizaje, considerando el conocimiento disciplinar y didáctico, el currículum vigente, el contexto, las características y conocimientos previos de sus estudiantes y la evidencia generada a partir de las evaluaciones.",
+                "descripcion": "El/la docente diseña experiencias de aprendizaje efectivas y contextualizadas para el logro de objetivos desafiantes, considerando el currículum vigente, cómo los/as estudiantes aprenden el conocimiento disciplinar, sus características, conocimientos previos y contexto, y la evidencia que entregan las evaluaciones. Con estos referentes, precisa los objetivos de aprendizaje - desafiantes y pertinentes- y organiza la enseñanza, estimando los tiempos y seleccionando estrategias didácticas, recursos y experiencias de aprendizaje que involucren a sus estudiantes en la construcción de conocimientos y en el desarrollo de habilidades y actitudes.",
                 "focos": [
                     {
                         "id": 1,
@@ -62,7 +65,8 @@
                 "id": 4,
                 "estandar": "Estándar 4",
                 "titulo": "Planificación de la evaluación.",
-                "descripcion": "Planifica la evaluación, incorporando diversas modalidades que permitan producir evidencias alineadas con los objetivos de aprendizaje, monitorear el nivel de logro de estos y retroalimentar a sus estudiantes.",
+                "objetivo": "Planifica la evaluación, incorporando diversas modalidades que permitan producir evidencias alineadas con los objetivos de aprendizaje, monitorear el nivel de logro de estos y retroalimentar a sus estudiantes.",
+                "descripcion": "El/la docente planifica el proceso evaluativo, entendiendo que este es parte del proceso de preparación de la enseñanza, para contar con evidencias de calidad, oportunas y pertinentes, según los objetivos de aprendizaje disciplinares y transversales definidos en la planificación. Para cumplir su doble propósito -formativo y sumativo-, selecciona y diseña diversos instrumentos y estrategias evaluativas que permitan analizar, monitorear, retroalimentar y calificar el nivel de logro del aprendizaje de sus estudiantes. Propone actividades para evaluar y para la auto y coevaluación de los estudiantes, que respondan a sus necesidades específicas y que entreguen información para la retroalimentación. Analiza y reflexiona críticamente sobre los resultados de las evaluaciones desde una dimensión ética, para identificar posibles sesgos interpretativos que creen barreras para el aprendizaje de sus estudiantes. Asimismo, analiza y reflexiona sobre el proceso evaluativo y la calidad de sus evidencias, para planificar y readecuar sus prácticas evaluativas.",
                 "focos": [
                     {
                         "id": 1,
@@ -87,7 +91,8 @@
                 "id": 5,
                 "estandar": "Estándar 5",
                 "titulo": "Ambiente respetuoso y organizado.",
-                "descripcion": "Establece un ambiente de aula respetuoso, inclusivo y organizado, para favorecer el aprendizaje de sus estudiantes y su compromiso con la promoción de la buena convivencia.",
+                "objetivo": "Establece un ambiente de aula respetuoso, inclusivo y organizado, para favorecer el aprendizaje de sus estudiantes y su compromiso con la promoción de la buena convivencia.",
+                "descripcion": "El/la docente demuestra y promueve relaciones sociales respetuosas, basadas en el reconocimiento y la valoración de la diversidad. Aplica normas para la convivencia pacífica y aplica oportunamente y con un claro sentido formativo medidas para abordar las transgresiones, de modo que sus estudiantes compartan la responsabilidad por la buena convivencia, con el compromiso y apoyo de padres, madres y apoderados. Comunica con claridad a sus estudiantes las responsabilidades que deben asumir respecto de su aprendizaje y formación, en el marco de una visión compartida sobre el tipo de convivencia en el aula que se espera en el establecimiento. Además, se preocupa de mantener un ambiente organizado para optimizar el tiempo lectivo, y establece rutinas y estrategias que permitan que los estudiantes trabajen con tranquilidad, compromiso y concentración.",
                 "focos": [
                     {
                         "id": 1,
@@ -105,7 +110,8 @@
                 "id": 6,
                 "estandar": "Estándar 6",
                 "titulo": "Desarrollo personal y social.",
-                "descripcion": "Promueve el desarrollo personal y social de sus estudiantes, favoreciendo su bienestar y fomentando competencias socioemocionales, actitudes y hábitos necesarios para el ejercicio de la ciudadanía, vida democrática, cuidado por el medio ambiente y valoración por la diversidad.",
+                "objetivo": "Promueve el desarrollo personal y social de sus estudiantes, favoreciendo su bienestar y fomentando competencias socioemocionales, actitudes y hábitos necesarios para el ejercicio de la ciudadanía, vida democrática, cuidado por el medio ambiente y valoración por la diversidad.",
+                "descripcion": "El/la docente implementa estrategias para promover el desarrollo personal y social de sus estudiantes, contribuyendo a su calidad de vida y bienestar en general, y en el centro educativo en particular. Organiza las interacciones en los espacios educativos para que sus estudiantes desarrollen variadas competencias sociales, personales y emocionales que les permitan ejercer sus derechos y responsabilidades como ciudadanos y desarrollar los valores para participar en la sociedad de manera solidaria y democrática, el respeto por los derechos humanos y el cuidado del medio ambiente.",
                 "focos": [
                     {
                         "id": 1,
@@ -130,7 +136,8 @@
                 "id": 7,
                 "estandar": "Estándar 7",
                 "titulo": "Estrategias de enseñanza para el logro de aprendizajes profundos.",
-                "descripcion": "Implementa estrategias de enseñanza basadas en una comunicación clara y precisa, para atender las diferencias individuales y promover altas expectativas, participación y colaboración de los/las estudiantes en actividades inclusivas y desafiantes orientadas al logro de aprendizajes profundos.",
+                "objetivo": "Implementa estrategias de enseñanza basadas en una comunicación clara y precisa, para atender las diferencias individuales y promover altas expectativas, participación y colaboración de los/las estudiantes en actividades inclusivas y desafiantes orientadas al logro de aprendizajes profundos.",
+                "descripcion": "El/la docente utiliza una diversidad de recursos orales, escritos y/o visuales para comunicar los objetivos, las instrucciones y los conocimientos disciplinares, e indagar respecto de los saberes previos de los estudiantes, utilizando el lenguaje de la disciplina y una variedad de estrategias didácticas. Demuestra altas expectativas respecto al potencial de aprendizaje de todos sus estudiantes y para ello les presenta actividades desafiantes que promuevan el aprendizaje profundo y autónomo a través de la participación activa, tanto individual como colaborativamente, y en diversos contextos como laboratorios, salidas a terreno, entre otros. Monitorea constantemente cómo evoluciona el aprendizaje de sus estudiantes, para ajustar oportuna y pertinentemente sus prácticas pedagógicas y responder a las diferencias individuales.",
                 "focos": [
                     {
                         "id": 7,
@@ -148,7 +155,8 @@
                 "id": 8,
                 "estandar": "Estándar 8",
                 "titulo": "Estrategias para el desarrollo de habilidades del pensamiento.",
-                "descripcion": "Desafía a sus estudiantes promoviendo el desarrollo del pensamiento crítico, creativo y la metacognición, basándose en los conocimientos de la disciplina que enseña, para que aprendan de manera comprensiva, reflexiva y con creciente autonomía.",
+                "objetivo": "Desafía a sus estudiantes promoviendo el desarrollo del pensamiento crítico, creativo y la metacognición, basándose en los conocimientos de la disciplina que enseña, para que aprendan de manera comprensiva, reflexiva y con creciente autonomía.",
+                "descripcion": "El/la docente desafía a sus estudiantes para potenciar el desarrollo de un pensamiento crítico y creativo, generando espacios que les permitan manifestarse de manera autónoma, tensionar el contenido en estudio desde diversas perspectivas y enfoques, argumentar y contra argumentar avalándose en evidencias, generar ideas originales y útiles, identificar problemas y desarrollar soluciones innovadoras. Al mismo tiempo, estimula la metacognición en sus estudiantes, invitándolos/as a reflexionar respecto de sus modos de conocer el mundo, y favoreciendo el análisis, monitoreo y evaluación de su propio aprendizaje. Todas las habilidades del pensamiento descritas tienen como referentes para su aplicación el currículum de la disciplina correspondiente.",
                 "focos": [
                     {
                         "id": 7,
@@ -166,7 +174,8 @@
                 "id": 9,
                 "estandar": "Estándar 9",
                 "titulo": "Evaluación y retroalimentación para el aprendizaje.",
-                "descripcion": "Utiliza la evaluación y la retroalimentación para monitorear y potenciar el aprendizaje, basándose en criterios evaluativos y evidencia relevante, ajustando apoyos de manera oportuna y específica, y propiciando la autoevaluación en los/as estudiantes.",
+                "objetivo": "Utiliza la evaluación y la retroalimentación para monitorear y potenciar el aprendizaje, basándose en criterios evaluativos y evidencia relevante, ajustando apoyos de manera oportuna y específica, y propiciando la autoevaluación en los/as estudiantes.",
+                "descripcion": "El/la docente utiliza una variedad de estrategias de evaluación y retroalimentación durante las actividades de aprendizaje, que le permitan obtener evidencia del logro de los objetivos, tomar decisiones y reducir brechas de aprendizaje. Continuamente entrega retroalimentación oportuna y descriptiva a sus estudiantes, sugiriéndoles opciones para continuar aprendiendo, y potenciando la perseverancia en tareas desafiantes, con el fin de mantener su involucramiento hasta completarlas. Además, comunica indicadores de éxito específicos y precisos, para que sus estudiantes puedan monitorear sus avances, ajustar su proceso de aprendizaje y utilizar diversas estrategias de auto y coevaluación, de modo que adquieran autonomía y responsabilidad. Según avanzan en su desarrollo, incentiva a sus estudiantes a determinar indicadores y criterios evaluativos con el propósito de que logren una mejor comprensión de las expectativas y para promover una mayor transparencia en el proceso evaluativo.",
                 "focos": [
                     {
                         "id": 7,
@@ -191,7 +200,8 @@
                 "id": 10,
                 "estandar": "Estándar 10",
                 "titulo": "Ética profesional.",
-                "descripcion": "Actúa éticamente, resguardando los derechos de todos sus estudiantes, su bienestar y el de la comunidad escolar, en consonancia con el proyecto educativo institucional, la legislación vigente y el marco regulatorio para la educación escolar.",
+                "objetivo": "Actúa éticamente, resguardando los derechos de todos sus estudiantes, su bienestar y el de la comunidad escolar, en consonancia con el proyecto educativo institucional, la legislación vigente y el marco regulatorio para la educación escolar.",
+                "descripcion": "El/la docente orienta su actuar profesional a la protección de los derechos de sus estudiantes, prioritariamente el derecho a la educación, comprometiéndose con el aprendizaje y desarrollo integral del estudiante y la promoción de su bienestar. Fundamenta sus decisiones en los valores y los consensos éticos de la profesión docente, promoviendo igualdad de oportunidades para el logro de aprendizajes y afirmando la diversidad social y cultural de todos/as los/as estudiantes y sus familias y apoderados. Reconoce y responde a la confianza que la sociedad deposita en su labor, ejerciendo una influencia positiva en la vida de sus estudiantes y en la comunidad escolar. Comprende y respeta los derechos, roles y responsabilidades que competen a cada integrante de la comunidad escolar y actúa acorde con el proyecto educativo institucional, la legislación, la normativa y las políticas educativas nacionales.",
                 "focos": [
                     {
                         "id": 1,
@@ -209,7 +219,8 @@
                 "id": 11,
                 "estandar": "Estándar 11",
                 "titulo": "Aprendizaje profesional continuo.",
-                "descripcion": "Demuestra compromiso con su aprendizaje profesional continuo, transformando sus prácticas a través de la reflexión sistemática, la colaboración y la participación en diversas instancias de desarrollo profesional para la mejora del aprendizaje de los estudiantes.",
+                "objetivo": "Demuestra compromiso con su aprendizaje profesional continuo, transformando sus prácticas a través de la reflexión sistemática, la colaboración y la participación en diversas instancias de desarrollo profesional para la mejora del aprendizaje de los estudiantes.",
+                "descripcion": "El/la docente comprende que un componente clave de sus responsabilidades profesionales es el compromiso con el mejoramiento continuo de su docencia, sustentado en un proceso de aprendizaje a lo largo de su vida profesional, que lleve a sus estudiantes a obtener aprendizajes de calidad. Reflexiona de manera sistemática, tanto individual como colectivamente, sobre su práctica y, desde un enfoque inclusivo considerando la equidad y las barreras y facilitadores para el aprendizaje y la participación, analiza el impacto de esta en los logros de aprendizaje de todos sus estudiantes. En el ejercicio de su autonomía profesional, considera diversas fuentes –entre ellas, el trabajo de sus estudiantes, la retroalimentación de la observación de clases y la evaluación docente– para indagar, evaluar y mejorar sus prácticas, actualizando y profundizados sus conocimientos profesionales. Participa en diálogos reflexivos con sus pares, buscando un cambio intencionado que le permita sentirse más satisfecho, comprometido y efectivo con su labor profesional, y contribuir a mejorar las oportunidades de aprendizaje de sus estudiantes.",
                 "focos": [
                     {
                         "id": 1,
@@ -227,17 +238,13 @@
                 "id": 12,
                 "estandar": "Estándar 12",
                 "titulo": "Compromiso con el mejoramiento continuo de la comunidad escolar.",
-                "descripcion": "Demuestra compromiso con la comunidad escolar, mediante la participación en iniciativas de desarrollo y mejoramiento continuo del centro educativo, asumiendo una responsabilidad compartida con estudiantes, docentes, directivos, familias y apoderados por el logro de las metas institucionales.",
+                "objetivo": "Demuestra compromiso con la comunidad escolar, mediante la participación en iniciativas de desarrollo y mejoramiento continuo del centro educativo, asumiendo una responsabilidad compartida con estudiantes, docentes, directivos, familias y apoderados por el logro de las metas institucionales.",
+                "descripcion": "El/la docente se compromete con la comunidad educativa desarrollando un trabajo técnico- pedagógico que contribuya a la toma de decisiones con un sentido de corresponsabilidad por el logro de las metas institucionales. Mantiene una comunicación fluida con las familias y apoderados, promoviendo relaciones simétricas, recíprocas y de colaboración, resguardando la confidencialidad en relación con las situaciones personales y familiares de los estudiantes. Además, incentiva la participación de las familias y apoderados en actividades que apoyan la labor docente, aportando con sus saberes y experiencias a la implementación del proyecto educativo institucional. Colabora con organizaciones y personas naturales externas que apoyan a los/las estudiantes y al centro educativo en aspectos que pueden potenciar o interferir el desarrollo saludable de sus estudiantes.",
                 "focos": [
                     {
                         "id": 1,
-                        "descriptores": [
-                            {
-                                "id": 1,
-                                "numero": "1.1",
-                                "descripcion": "Comprende las principales teorías del aprendizaje, sus principios y cómo estos se relacionan con la naturaleza de la disciplina que enseña, para diseñar experiencias de aprendizaje –acordes a la edad de los/las estudiantes– que respondan a cómo ellos/as construyen el conocimiento, y desarrollan habilidades, actitudes y valores."
-                            }
-                        ]
+                        "titulo": "",
+                        "descriptores": []
                     }
                 ]
             }
