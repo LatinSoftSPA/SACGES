@@ -1,16 +1,13 @@
 import { Button } from "@tremor/react";
 import { DocumentCheckIcon } from "@heroicons/react/24/solid";
 
-
 import "./styles.css";
 
 const BuscarArchivos = (props) => {
-  const { cargado,  modalCrear, modalSubir } = props;
-
+  const { cargado, modalCrear, modalSubir } = props;
 
   return (
     <>
-
       <Button
         type="file"
         value=""
@@ -22,9 +19,10 @@ const BuscarArchivos = (props) => {
         marginTop="mt-0"
         // loading={archivos.size === 0 ? true : false}
         // loadingText="Seleccionar Archivo"
-        >
+      >
         Crear
-      </Button>|
+      </Button>
+      |
       <Button
         type="file"
         value=""
@@ -36,10 +34,10 @@ const BuscarArchivos = (props) => {
         marginTop="mt-0"
         // loading={archivos.size === 0 ? true : false}
         // loadingText="Seleccionar Archivo"
-        >
+      >
         Subir
       </Button>
-        </>
+    </>
   );
 };
 

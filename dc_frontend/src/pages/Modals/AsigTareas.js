@@ -160,6 +160,7 @@ function AsigTareas() {
           <Form.Item label="NOMBRE ACTIVIDAD">
             <Input name="nombre" onChange={(e) => handleChange(e)} />
           </Form.Item>
+
           <Form.Item
             name="range-picker"
             label="FECHA INICIO Y TERMINO"

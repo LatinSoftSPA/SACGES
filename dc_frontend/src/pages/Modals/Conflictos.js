@@ -8,6 +8,12 @@ import {
   EyeTwoTone,
 } from "@ant-design/icons";
 import { Button, DatePicker, Form, Input, Select, Modal, Upload } from "antd";
+import {
+  conversionFecha,
+  FechaInput,
+  FotoInput,
+  InputTextoSimple,
+} from "../../components/Form/Form";
 const { TextArea } = Input;
 
 const formItemLayoutWithOutLabel = {
@@ -46,13 +52,17 @@ function Conflictos() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [list, setList] = useState({});
-  const [input, setInput] = useState({});
+  const [input, setInput] = useState({
+    nombre: "",
+    involucrados: [],
+  });
 
   const showModal = () => {
     setIsModalOpen(true);
   };
 
   const handleChange = (e) => {
+    console.log(input);
     setInput({
       ...input,
       [e.target.name]: e.target.value,
@@ -74,16 +84,9 @@ function Conflictos() {
   };
 
   const handleDateChange = (e) => {
-    const convertirFecha = (fecha) => {
-      const date = new Date(fecha);
-      const dia = date.getDate();
-      const mes = date.getMonth() + 1;
-      const anio = date.getFullYear();
-      return `${dia}/${mes}/${anio}`;
-    };
     setInput({
       ...input,
-      fecha: convertirFecha(e.$d.toString()),
+      fecha: conversionFecha(e.$d.toString()),
     });
   };
 
@@ -110,45 +113,20 @@ function Conflictos() {
     setList(input);
   };
 
+  const handleMultipleChange = (e) => {
+    console.log(input);
+    let involNum = `involucrado ${
+      parseInt(e.target.id[e.target.id.length - 1]) + 1
+    }`;
+    setInput({
+      ...input,
+      [involNum]: e.target.value,
+    });
+  };
+
   return (
     <div>
       REGISTRO INTERNO SITUACIONES DE CONFLICTO ESCOLAR
-      <div>
-        <table>
-          <tr>
-            <td>FECHA</td>
-            <td>{list.fecha}</td>
-          </tr>
-          <tr>
-            <td>NOMBRE</td>
-            <td>{list.nombre}</td>
-          </tr>
-          <tr>
-            <td>EDITAR</td>
-            <td>
-              <EditTwoTone />
-            </td>
-          </tr>
-          <tr>
-            <td>VER</td>
-            <td>
-              <EyeTwoTone />
-            </td>
-          </tr>
-          <tr>
-            <td>IMPRIMIR</td>
-            <td>
-              <PrinterTwoTone />
-            </td>
-          </tr>
-          <tr>
-            <td>ELIMINAR</td>
-            <td>
-              <DeleteTwoTone />
-            </td>
-          </tr>
-        </table>
-      </div>
       <Button type="primary" onClick={showModal}>
         CREAR NUEVA
       </Button>
@@ -179,43 +157,18 @@ function Conflictos() {
             maxWidth: 600,
           }}
         >
-          <Form.Item label="NOMBRE">
-            <Input name="nombre" onChange={(e) => handleChange(e)} />
-          </Form.Item>
-          <Form.Item name="date-picker" label="FECHA">
-            <DatePicker onChange={(e) => handleDateChange(e)} />
-          </Form.Item>
+          <InputTextoSimple
+            label={"NOMBRE"}
+            nombre={"nombre"}
+            onChange={handleChange}
+          />
 
-          <Form.Item label="RESPONSABLE">
-            <Select
-              name="responsable"
-              onChange={(e) => handleResponsableChange(e)}
-            >
-              <Select.Option value="CRISTIAN AEDO">CRISTIAN AEDO</Select.Option>
-              <Select.Option value="BASTIAN PADILLA">
-                BASTIAN PADILLA
-              </Select.Option>
-              <Select.Option value="MARCOS VERA">MARCOS VERA</Select.Option>{" "}
-            </Select>
-          </Form.Item>
-          <Form.Item label="DESCRIPCION">
-            <TextArea rows={4} />
-          </Form.Item>
+          <FechaInput label="FECHA" onChange={handleDateChange} />
 
-          <Form.Item label="FOTOGRAFIAS" valuePropName="fileList">
-            <Upload action={(e) => handleFileUpload(e)} listType="picture-card">
-              <div>
-                <PlusOutlined />
-                <div
-                  style={{
-                    marginTop: 8,
-                  }}
-                >
-                  Upload
-                </div>
-              </div>
-            </Upload>
-          </Form.Item>
+          <FotoInput onChange={handleFileUpload} />
+          {/*  */}
+          {/*  */}
+          {/*  */}
           <Form.List
             name="names"
             rules={[
@@ -230,6 +183,7 @@ function Conflictos() {
           >
             {(fields, { add, remove }) => (
               <>
+                {/* {console.log(fields)} */}
                 {fields.map((field, index) => (
                   <Form.Item
                     {...(index === 0
@@ -251,18 +205,18 @@ function Conflictos() {
                       noStyle
                     >
                       <Input
+                        onChange={handleMultipleChange}
                         placeholder="NOMBRE INVOLUCRADO"
                         style={{
                           width: "60%",
                         }}
                       />
                     </Form.Item>
-                    {fields.length > 1 ? (
-                      <MinusCircleOutlined
-                        className="dynamic-delete-button"
-                        onClick={() => remove(field.name)}
-                      />
-                    ) : null}
+
+                    <MinusCircleOutlined
+                      className="dynamic-delete-button"
+                      onClick={() => remove(field.name)}
+                    />
                   </Form.Item>
                 ))}
                 <Form.Item>
@@ -280,6 +234,7 @@ function Conflictos() {
               </>
             )}
           </Form.List>
+
           <Form.Item label="PROTOCOLOS APLICADOS">
             <Select
               name="responsable"

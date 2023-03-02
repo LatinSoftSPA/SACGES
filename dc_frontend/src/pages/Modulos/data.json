@@ -7,6 +7,7 @@
     "url": "/liderazgo",
     "indicadores": [
       {
+        "id": 1,
         "Indicador": 1,
         "titulo": "Indicador 1",
         "descripcion": "Porcentaje anual de ejecucion de las actividades definidas en el Plan de Mejoramiento Educativo (PME) del establecimiento. (10%)",
