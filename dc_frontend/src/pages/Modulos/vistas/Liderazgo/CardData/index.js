@@ -25,7 +25,8 @@ const CardData = ({ indicadores }) => {
               marginTop="mt-3"
               justifyContent="justify-start"
               alignItems="items-baseline"
-              spaceX="space-x-1">
+              spaceX="space-x-1"
+            >
               <Metric>{ejecutadas}</Metric>
 
               <Text>/ {planificadas}</Text>
@@ -48,7 +49,8 @@ const CardData = ({ indicadores }) => {
         <Flex
           justifyContent="justify-center"
           alignItems="items-baseline"
-          spaceX="space-x-1">
+          spaceX="space-x-1"
+        >
           <Legend
             categories={["Ejecutadas", "Planificadas"]}
             colors={["sky", "slate"]}
