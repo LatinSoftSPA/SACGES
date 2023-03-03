@@ -12,7 +12,7 @@ const TablaDetalles = ({ medios, titulo }) => {
   const dispatch = useDispatch();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const [isListOpen, setIsListOpen] = useState(false);
+  const [isListaOpen, setIsListaOpen] = useState(false);
 
   const [loading, setLoading] = useState(false);
 
@@ -22,19 +22,21 @@ const TablaDetalles = ({ medios, titulo }) => {
     setIsModalOpen(true);
   };
 
-  const showList = () => {
-    setIsListOpen(true);
-  };
-
   const handleCancel = () => {
     setIsModalOpen(false);
+  };
+
+  const showList = () => {
+    setIsListaOpen(true);
+  };
+
+  const hideList = () => {
+    setIsListaOpen(false);
   };
 
   useEffect(() => {
     dispatch(getAllGantt());
   }, []);
-
-  console.log(gantt);
 
   switch (titulo) {
     case "Indicador 1":
@@ -123,7 +125,12 @@ const TablaDetalles = ({ medios, titulo }) => {
             handleCancel={handleCancel}
             loading={loading}
           />
-          <ListaGantt open={isListOpen} handleCancel={handleCancel} />
+          <ListaGantt
+            open={isListaOpen}
+            isModalOpen={isListaOpen}
+            handleCancel={hideList}
+            loading={loading}
+          />
         </>
       );
 

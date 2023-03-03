@@ -105,7 +105,10 @@ const CartaGrantt = ({ isModalOpen, handleCancel, loading }) => {
           onChange={handleChange}
         />
 
-        <IntervaloFechaInput onChange={handleDateChange} />
+        <IntervaloFechaInput
+          label={"FECHA DE INICIO Y FIN"}
+          onChange={handleDateChange}
+        />
 
         <SelectInput
           label={"RESPONSABLE"}

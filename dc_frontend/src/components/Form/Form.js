@@ -80,6 +80,7 @@ export const FotoInput = ({ onChange }) => {
 
 //check
 export const SelectInput = ({ label, nombre, onChange, opciones }) => {
+  console.log(label);
   return (
     <Form.Item label={label}>
       <Select name={nombre} onChange={(e) => onChange(e)}>
