@@ -1,42 +1,52 @@
-import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useState } from "react";
 import { Flex, Table, TableBody, TableCell, TableRow } from "@tremor/react";
 
 import BuscarArchivos from "../../../../../../components/Botones/BuscarArchivos";
 
-import CartaGrantt from "../../Modals/CartaGantt";
-import { getAllGantt } from "../../../../../../redux/action-creators/liderazgo";
-import ListaGantt from "../../Modals/ListaGantt";
+import ListaActividades from "../../../../../Modals/ListaActividades";
+import CreacionActividad from "../../../../../Modals/CreacionActividad";
+import CreacionGantt from "../../../../../Modals/CreacionGantt";
+import ListaGantt from "../../../../../Modals/ListaGantt";
 
 const TablaDetalles = ({ medios, titulo }) => {
-  const dispatch = useDispatch();
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalCrearActividad, setModalCrearActividad] = useState(false);
+  const [modalListaActividades, setModalListaActividades] = useState(false);
 
-  const [isListaOpen, setIsListaOpen] = useState(false);
+  const [modalCrearGantt, setModalCrearGantt] = useState(false);
+  const [modalListaGantt, setModalListaGantt] = useState(false);
 
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
 
-  const gantt = useSelector((state) => state.gantt);
-
-  const showModal = () => {
-    setIsModalOpen(true);
+  const mostrarModalCrearActividad = () => {
+    modalCrearActividad === false
+      ? setModalCrearActividad(true)
+      : setModalCrearActividad(false);
   };
 
-  const handleCancel = () => {
-    setIsModalOpen(false);
+  const mostrarModalListaActividades = () => {
+    modalListaActividades === false
+      ? setModalListaActividades(true)
+      : setModalListaActividades(false);
   };
 
-  const showList = () => {
-    setIsListaOpen(true);
+  const mostrarModalCrearGantt = () => {
+    modalCrearGantt === false
+      ? setModalCrearGantt(true)
+      : setModalCrearGantt(false);
   };
 
-  const hideList = () => {
-    setIsListaOpen(false);
+  const mostrarModalListaGantt = () => {
+    modalListaGantt === false
+      ? setModalListaGantt(true)
+      : setModalListaGantt(false);
   };
 
-  useEffect(() => {
-    dispatch(getAllGantt());
-  }, []);
+  console.log(
+    `crear act ${modalCrearActividad},
+    crear gantt ${modalCrearGantt},
+    lista act ${modalListaActividades},
+    lista gantt${modalListaGantt}`
+  );
 
   switch (titulo) {
     case "Indicador 1":
@@ -68,33 +78,6 @@ const TablaDetalles = ({ medios, titulo }) => {
 
     case "Indicador 2":
       return (
-        <Table marginTop="mt-5">
-          <TableBody>
-            {medios &&
-              medios?.map((obj, i) => {
-                const { titulo, cargado } = obj;
-                return (
-                  <TableRow key={i}>
-                    <TableCell> {i + 1} </TableCell>
-                    <TableCell> {titulo} </TableCell>
-                    <TableCell>
-                      <Flex justifyContent="justify-end">
-                        <BuscarArchivos
-                          cargado={cargado}
-                          titulo={titulo}
-                          modalCrear={""}
-                        />
-                      </Flex>
-                    </TableCell>
-                  </TableRow>
-                );
-              })}
-          </TableBody>
-        </Table>
-      );
-
-    case "Indicador 3":
-      return (
         <>
           <Table marginTop="mt-5">
             <TableBody>
@@ -109,8 +92,8 @@ const TablaDetalles = ({ medios, titulo }) => {
                         <Flex justifyContent="justify-end">
                           <BuscarArchivos
                             cargado={cargado}
-                            modalCrear={showModal}
-                            modalSubir={showList}
+                            modalCrear={mostrarModalCrearActividad}
+                            modalSubir={mostrarModalListaActividades}
                           />
                         </Flex>
                       </TableCell>
@@ -119,22 +102,83 @@ const TablaDetalles = ({ medios, titulo }) => {
                 })}
             </TableBody>
           </Table>
-          <CartaGrantt
-            open={isModalOpen}
-            isModalOpen={isModalOpen}
-            handleCancel={handleCancel}
+          <CreacionActividad
+            open={modalCrearActividad}
+            isModalOpen={modalCrearActividad}
+            handleCancel={mostrarModalCrearActividad}
             loading={loading}
           />
-          <ListaGantt
-            open={isListaOpen}
-            isModalOpen={isListaOpen}
-            handleCancel={hideList}
+          <ListaActividades
+            open={modalListaActividades}
+            isModalOpen={modalListaActividades}
+            handleCancel={mostrarModalListaActividades}
             loading={loading}
           />
         </>
       );
 
+    case "Indicador 3":
+      return (
+        <Table marginTop="mt-5">
+          <TableBody>
+            {medios &&
+              medios?.map((obj, i) => {
+                const { titulo, cargado } = obj;
+                return (
+                  <TableRow key={i}>
+                    <TableCell> {i + 1} </TableCell>
+                    <TableCell> {titulo} </TableCell>
+                    <TableCell>
+                      <Flex justifyContent="justify-end">
+                        <BuscarArchivos
+                          cargado={cargado}
+                          modalCrear={mostrarModalCrearGantt}
+                          modalSubir={mostrarModalListaGantt}
+                        />
+                      </Flex>
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
+          </TableBody>
+          <CreacionGantt
+            open={modalCrearGantt}
+            isModalOpen={modalCrearGantt}
+            handleCancel={mostrarModalCrearGantt}
+            loading={loading}
+          />
+          <ListaGantt
+            open={modalListaGantt}
+            isModalOpen={modalListaGantt}
+            handleCancel={mostrarModalListaGantt}
+            loading={loading}
+          />
+        </Table>
+      );
     default:
+      <Table marginTop="mt-5">
+        <TableBody>
+          {medios &&
+            medios?.map((obj, i) => {
+              const { titulo, cargado } = obj;
+              return (
+                <TableRow key={i}>
+                  <TableCell> {i + 1} </TableCell>
+                  <TableCell> {titulo} </TableCell>
+                  <TableCell>
+                    <Flex justifyContent="justify-end">
+                      <BuscarArchivos
+                        cargado={cargado}
+                        titulo={titulo}
+                        modalCrear={""}
+                      />
+                    </Flex>
+                  </TableCell>
+                </TableRow>
+              );
+            })}
+        </TableBody>
+      </Table>;
       break;
   }
 };

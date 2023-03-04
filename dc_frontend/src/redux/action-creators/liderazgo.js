@@ -1,12 +1,20 @@
 import axios from "axios";
-import { CREATE_GANTT, GET_ALL_GANTT } from "../action-types";
+import {
+  CREAR_ACTIVIDAD,
+  GET_ALL_ACTIVIDADES,
+  CREAR_GANTT,
+} from "../action-types";
 
-export const createGantt = (input) => {
-  return { type: CREATE_GANTT, payload: input };
+export const crearActividad = (input) => {
+  return { type: CREAR_ACTIVIDAD, payload: input };
+};
+
+export const crearGantt = (input) => {
+  return { type: CREAR_GANTT, payload: input };
 };
 
 export const getAllGantt = () => {
   return {
-    type: GET_ALL_GANTT,
+    type: GET_ALL_ACTIVIDADES,
   };
 };

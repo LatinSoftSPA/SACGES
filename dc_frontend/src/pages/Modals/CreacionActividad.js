@@ -7,10 +7,10 @@ import {
   SelectInput,
   TextAreaInput,
   conversionFecha,
-} from "../../../../../components/Form/Form";
-import actions from "../../../../../redux/action-creators";
+} from "../../components/Form/Form.js";
+import actions from "../../redux/action-creators/index.js";
 
-const { createGantt } = actions;
+const { crearActividad } = actions;
 
 const formItemLayout = {
   labelCol: {
@@ -31,11 +31,10 @@ const formItemLayout = {
   },
 };
 
-const CartaGrantt = ({ isModalOpen, handleCancel, loading }) => {
+const CreacionActividad = ({ isModalOpen, handleCancel, loading }) => {
   const dispatch = useDispatch();
   let responsables = ["CRISTIAN AEDO", "BASTIAN PADILLA", "MARCOS VERA"];
 
-  const [list, setList] = useState({});
   const [input, setInput] = useState({});
 
   const handleResponsableChange = (e) => {
@@ -54,14 +53,9 @@ const CartaGrantt = ({ isModalOpen, handleCancel, loading }) => {
   };
 
   const handleOk = () => {
-    dispatch(createGantt(input));
-  };
-
-  const onFinish = () => {
-    console.log("hola");
-
-    createGantt(input);
-    setList(input);
+    dispatch(crearActividad(input));
+    setInput();
+    handleCancel();
   };
 
   const handleChange = (e) => {
@@ -73,7 +67,7 @@ const CartaGrantt = ({ isModalOpen, handleCancel, loading }) => {
 
   return (
     <Modal
-      title="CREACION DE CARTA GANTT"
+      title="CREACION DE ACTIVIDAD"
       open={isModalOpen}
       onOk={handleOk}
       onCancel={handleCancel}
@@ -94,7 +88,6 @@ const CartaGrantt = ({ isModalOpen, handleCancel, loading }) => {
       <Form
         name="time_related_controls"
         {...formItemLayout}
-        onFinish={onFinish}
         style={{
           maxWidth: 600,
         }}
@@ -128,4 +121,4 @@ const CartaGrantt = ({ isModalOpen, handleCancel, loading }) => {
   );
 };
 
-export default CartaGrantt;
+export default CreacionActividad;
