@@ -5,7 +5,6 @@ import "./styles.css";
 
 const BuscarArchivos = (props) => {
   const { cargado, modalCrear, modalSubir } = props;
-
   return (
     <>
       <Button

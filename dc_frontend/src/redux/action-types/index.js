@@ -1,3 +1,4 @@
 export const GET_TEST = "GET_TEST";
-export const CREATE_GANTT = "CREATE_GANTT";
-export const GET_ALL_GANTT = "GET_ALL_GANTT";
+export const CREAR_ACTIVIDAD = "CREAR_ACTIVIDAD";
+export const GET_ALL_ACTIVIDADES = "GET_ALL_ACTIVIDADES";
+export const CREAR_GANTT = "CREAR_GANTT";

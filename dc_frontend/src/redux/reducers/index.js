@@ -1,26 +1,35 @@
-import { GET_TEST, CREATE_GANTT, GET_ALL_GANTT } from "../action-types";
+import {
+  GET_TEST,
+  CREAR_ACTIVIDAD,
+  GET_ALL_ACTIVIDADES,
+  CREAR_GANTT,
+} from "../action-types";
 
 const initialState = {
   data: [],
-  gantt: [],
+  actividades: [],
+  cartasGantt: [],
 };
 
 const rootReducer = (state = initialState, action) => {
-  console.log("hola");
   switch (action.type) {
     case GET_TEST:
       return {
         ...state,
         data: action.payload,
       };
-    case CREATE_GANTT:
-      console.log("reducer");
+    case CREAR_ACTIVIDAD:
       return {
         ...state,
-        gantt: action.payload,
+        actividades: [...state.actividades, action.payload],
       };
-    case GET_ALL_GANTT:
-      return state.gantt;
+    case GET_ALL_ACTIVIDADES:
+      return state.actividades;
+    case CREAR_GANTT:
+      return {
+        ...state,
+        cartasGantt: [...state.cartasGantt, action.payload],
+      };
     default:
       return state;
   }
