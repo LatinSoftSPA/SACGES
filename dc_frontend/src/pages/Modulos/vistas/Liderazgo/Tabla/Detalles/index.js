@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Flex, Table, TableBody, TableCell, TableRow } from "@tremor/react";
-
 import BuscarArchivos from "../../../../../../components/Botones/BuscarArchivos";
-
 import ListaActividades from "../../../../../Modals/ListaActividades";
 import CreacionActividad from "../../../../../Modals/CreacionActividad";
 import CreacionGantt from "../../../../../Modals/CreacionGantt";
@@ -18,35 +16,20 @@ const TablaDetalles = ({ medios, titulo }) => {
   const [loading] = useState(false);
 
   const mostrarModalCrearActividad = () => {
-    modalCrearActividad === false
-      ? setModalCrearActividad(true)
-      : setModalCrearActividad(false);
+    setModalCrearActividad(!modalCrearActividad);
   };
 
   const mostrarModalListaActividades = () => {
-    modalListaActividades === false
-      ? setModalListaActividades(true)
-      : setModalListaActividades(false);
+    setModalListaActividades(!modalListaActividades);
   };
 
   const mostrarModalCrearGantt = () => {
-    modalCrearGantt === false
-      ? setModalCrearGantt(true)
-      : setModalCrearGantt(false);
+    setModalCrearGantt(!modalCrearGantt);
   };
 
   const mostrarModalListaGantt = () => {
-    modalListaGantt === false
-      ? setModalListaGantt(true)
-      : setModalListaGantt(false);
+    setModalListaGantt(!modalListaGantt);
   };
-
-  console.log(
-    `crear act ${modalCrearActividad},
-    crear gantt ${modalCrearGantt},
-    lista act ${modalListaActividades},
-    lista gantt${modalListaGantt}`
-  );
 
   switch (titulo) {
     case "Indicador 1":
@@ -78,30 +61,28 @@ const TablaDetalles = ({ medios, titulo }) => {
 
     case "Indicador 2":
       return (
-        <>
-          <Table marginTop="mt-5">
-            <TableBody>
-              {medios &&
-                medios?.map((obj, i) => {
-                  const { titulo, cargado } = obj;
-                  return (
-                    <TableRow key={i}>
-                      <TableCell> {i + 1} </TableCell>
-                      <TableCell> {titulo} </TableCell>
-                      <TableCell>
-                        <Flex justifyContent="justify-end">
-                          <BuscarArchivos
-                            cargado={cargado}
-                            modalCrear={mostrarModalCrearActividad}
-                            modalSubir={mostrarModalListaActividades}
-                          />
-                        </Flex>
-                      </TableCell>
-                    </TableRow>
-                  );
-                })}
-            </TableBody>
-          </Table>
+        <Table marginTop="mt-5">
+          <TableBody>
+            {medios &&
+              medios?.map((obj, i) => {
+                const { titulo, cargado } = obj;
+                return (
+                  <TableRow key={i}>
+                    <TableCell> {i + 1} </TableCell>
+                    <TableCell> {titulo} </TableCell>
+                    <TableCell>
+                      <Flex justifyContent="justify-end">
+                        <BuscarArchivos
+                          cargado={cargado}
+                          modalCrear={mostrarModalCrearActividad}
+                          modalSubir={mostrarModalListaActividades}
+                        />
+                      </Flex>
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
+          </TableBody>
           <CreacionActividad
             open={modalCrearActividad}
             isModalOpen={modalCrearActividad}
@@ -114,7 +95,7 @@ const TablaDetalles = ({ medios, titulo }) => {
             handleCancel={mostrarModalListaActividades}
             loading={loading}
           />
-        </>
+        </Table>
       );
 
     case "Indicador 3":
@@ -156,29 +137,6 @@ const TablaDetalles = ({ medios, titulo }) => {
         </Table>
       );
     default:
-      <Table marginTop="mt-5">
-        <TableBody>
-          {medios &&
-            medios?.map((obj, i) => {
-              const { titulo, cargado } = obj;
-              return (
-                <TableRow key={i}>
-                  <TableCell> {i + 1} </TableCell>
-                  <TableCell> {titulo} </TableCell>
-                  <TableCell>
-                    <Flex justifyContent="justify-end">
-                      <BuscarArchivos
-                        cargado={cargado}
-                        titulo={titulo}
-                        modalCrear={""}
-                      />
-                    </Flex>
-                  </TableCell>
-                </TableRow>
-              );
-            })}
-        </TableBody>
-      </Table>;
       break;
   }
 };
