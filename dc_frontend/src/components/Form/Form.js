@@ -1,5 +1,9 @@
 import { DatePicker, Form, Input, Select, Upload, Button } from "antd";
-import { PlusOutlined, MinusCircleOutlined } from "@ant-design/icons";
+import {
+  PlusOutlined,
+  MinusCircleOutlined,
+  UploadOutlined,
+} from "@ant-design/icons";
 const { RangePicker } = DatePicker;
 const { TextArea } = Input;
 
@@ -80,7 +84,6 @@ export const FotoInput = ({ onChange }) => {
 
 //check
 export const SelectInput = ({ label, nombre, onChange, opciones }) => {
-  console.log(label);
   return (
     <Form.Item label={label}>
       <Select name={nombre} onChange={(e) => onChange(e)}>
@@ -164,12 +167,11 @@ export const InputTextoMultiple = ({}) => {
                   }}
                 />
               </Form.Item>
-              {fields.length > 1 ? (
-                <MinusCircleOutlined
-                  className="dynamic-delete-button"
-                  onClick={() => remove(field.name)}
-                />
-              ) : null}
+
+              <MinusCircleOutlined
+                className="dynamic-delete-button"
+                onClick={() => remove(field.name)}
+              />
             </Form.Item>
           ))}
           <Form.Item>
@@ -190,8 +192,14 @@ export const InputTextoMultiple = ({}) => {
   );
 };
 
-export const ArchivoUnicoInput = () => {
-  return;
+export const ArchivoUnicoInput = ({ onChange }) => {
+  return (
+    <Form.Item label={"archivo"}>
+      <Upload action={(e) => onChange(e)} listType="picture" maxCount={1}>
+        <Button icon={<UploadOutlined />}>Upload (Max: 1)</Button>
+      </Upload>
+    </Form.Item>
+  );
 };
 
 export const MultiplesArchivosInput = () => {

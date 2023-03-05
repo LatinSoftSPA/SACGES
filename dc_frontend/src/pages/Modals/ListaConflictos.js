@@ -46,7 +46,7 @@ const columns = [
 ];
 
 const ListaConflictos = ({ isModalOpen, handleCancel, loading }) => {
-  let datos = useSelector((state) => state.cartasGantt);
+  let datos = useSelector((state) => state.conflictos);
 
   if (datos) {
     datos.forEach(
