@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import {
   PlusOutlined,
   EditTwoTone,
@@ -13,7 +14,12 @@ import {
   FechaInput,
   InputTextoSimple,
   TextAreaInput,
+  FotoInput,
+  ArchivoUnicoInput,
+  InputTextoMultiple,
 } from "../../components/Form/Form";
+import actions from "../../redux/action-creators";
+const { crearConflicto } = actions;
 const { TextArea } = Input;
 
 const formItemLayout = {
@@ -35,17 +41,14 @@ const formItemLayout = {
   },
 };
 
-function CreacionConflictos() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+function CreacionConflictos({ isModalOpen, handleCancel }) {
+  const dispatch = useDispatch();
   const [loading, setLoading] = useState(false);
-  const [list, setList] = useState({});
-  const [input, setInput] = useState({});
+  const [input, setInput] = useState({
+    fotos: [],
+  });
 
   let responsables = ["CRISTIAN AEDO", "BASTIAN PADILLA", "MARCOS VERA"];
-
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
 
   const handleChange = (e) => {
     setInput({
@@ -68,35 +71,27 @@ function CreacionConflictos() {
     });
   };
 
-  const handleFileUpload = (file) => {
+  const handleSubirFoto = (file) => {
     setInput({
       ...input,
-      archivos: file,
+      fotos: [...input.fotos, file],
     });
   };
 
-  const handleFileUpload2 = (file) => {
+  const handleSubirArchivo = (file) => {
     setInput({
       ...input,
-      archivos2: file,
+      archivo: file,
     });
   };
+
+  const handleInvolucrados = () => {};
 
   const handleOk = () => {
-    setList(input);
-    console.log(list);
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setIsModalOpen(false);
-    }, 3000);
-  };
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
-  const onFinish = () => {
-    setList(input);
-    console.log(list);
+    dispatch(crearConflicto(input));
+    setInput({});
+    handleCancel();
+    console.log(input);
   };
 
   return (
@@ -152,34 +147,11 @@ function CreacionConflictos() {
           filas={4}
         />
 
-        <Form.Item label="FOTOGRAFIAS" valuePropName="fileList">
-          <Upload action={(e) => handleFileUpload(e)} listType="picture-card">
-            <div>
-              <PlusOutlined />
-              <div
-                style={{
-                  marginTop: 8,
-                }}
-              >
-                Upload
-              </div>
-            </div>
-          </Upload>
-        </Form.Item>
-        <Form.Item label="LISTA ASISTENCIA" valuePropName="fileList">
-          <Upload action={(e) => handleFileUpload2(e)} listType="picture-card">
-            <div>
-              <PlusOutlined />
-              <div
-                style={{
-                  marginTop: 8,
-                }}
-              >
-                Upload
-              </div>
-            </div>
-          </Upload>
-        </Form.Item>
+        <FotoInput onChange={handleSubirFoto} />
+
+        <ArchivoUnicoInput onChange={handleSubirArchivo} />
+
+        <InputTextoMultiple onChange={handleInvolucrados} />
       </Form>
     </Modal>
   );

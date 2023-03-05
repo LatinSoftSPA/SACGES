@@ -3,12 +3,14 @@ import {
   CREAR_ACTIVIDAD,
   GET_ALL_ACTIVIDADES,
   CREAR_GANTT,
+  CREAR_CONFLICTO,
 } from "../action-types";
 
 const initialState = {
   data: [],
   actividades: [],
   cartasGantt: [],
+  conflictos: [],
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -29,6 +31,11 @@ const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         cartasGantt: [...state.cartasGantt, action.payload],
+      };
+    case CREAR_CONFLICTO:
+      return {
+        ...state,
+        conflictos: [...state.conflictos, action.payload],
       };
     default:
       return state;
