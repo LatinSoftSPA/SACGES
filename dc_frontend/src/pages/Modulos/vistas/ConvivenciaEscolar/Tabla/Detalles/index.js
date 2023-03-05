@@ -1,39 +1,59 @@
-import React from "react";
-import { Badge, Table, TableBody, TableCell, TableRow } from "@tremor/react";
+import React, { useState } from "react";
+import { Table, TableBody, TableCell, TableRow, Flex } from "@tremor/react";
+import BuscarArchivos from "../../../../../../components/Botones/BuscarArchivos";
+import CreacionConflictos from "../../../../../Modals/CreacionConflictos";
+import ListaConflictos from "../../../../../Modals/ListaConflictos";
 
-import { DocumentCheckIcon } from "@heroicons/react/24/solid";
+const TableBase = ({ medios, titulo }) => {
+  const [modalCrearConflicto, setModalCrearConflicto] = useState(false);
+  const [modalListaConflicto, setModalListaConflicto] = useState(false);
 
-const MediosRow = ({ medios }) => {
-  return medios.map((obj, i) => {
-    const { titulo, cargado } = obj;
-    return (
-      <TableRow key={i}>
-        <TableCell> {i + 1} </TableCell>
-        <TableCell> {titulo} </TableCell>
-        <TableCell>
-          <Badge
-            text={"Subir Archivo"}
-            color={cargado ? "green" : "red"}
-            icon={DocumentCheckIcon}
-          />
-        </TableCell>
-      </TableRow>
-    );
-  });
-};
+  const [loading] = useState(false);
 
-const TableBase = ({ medios }) => {
+  const mostrarModalCrearConflicto = () => {
+    setModalCrearConflicto(!modalCrearConflicto);
+  };
+
+  const mostrarModalListaConflicto = () => {
+    setModalListaConflicto(!modalListaConflicto);
+  };
+
   return (
-    <>
-      <Table marginTop="mt-5">
-        {/* <TableHead>
-          <Cabecera columas={columas} />
-        </TableHead> */}
-        <TableBody>
-          <MediosRow medios={medios} />
-        </TableBody>
-      </Table>
-    </>
+    <Table marginTop="mt-5">
+      <TableBody>
+        {medios &&
+          medios?.map((obj, i) => {
+            const { titulo, cargado } = obj;
+            return (
+              <TableRow key={i}>
+                <TableCell> {i + 1} </TableCell>
+                <TableCell> {titulo} </TableCell>
+                <TableCell>
+                  <Flex justifyContent="justify-end">
+                    <BuscarArchivos
+                      cargado={cargado}
+                      modalCrear={mostrarModalCrearConflicto}
+                      modalSubir={mostrarModalListaConflicto}
+                    />
+                  </Flex>
+                </TableCell>
+              </TableRow>
+            );
+          })}
+      </TableBody>
+      <CreacionConflictos
+        open={modalCrearConflicto}
+        isModalOpen={modalCrearConflicto}
+        handleCancel={mostrarModalCrearConflicto}
+        loading={loading}
+      />
+      <ListaConflictos
+        open={modalListaConflicto}
+        isModalOpen={modalListaConflicto}
+        handleCancel={mostrarModalListaConflicto}
+        loading={loading}
+      />
+    </Table>
   );
 };
 

@@ -45,7 +45,7 @@ const columns = [
   },
 ];
 
-const ListaGantt = ({ isModalOpen, handleCancel, loading }) => {
+const ListaConflictos = ({ isModalOpen, handleCancel, loading }) => {
   let datos = useSelector((state) => state.cartasGantt);
 
   if (datos) {
@@ -61,7 +61,7 @@ const ListaGantt = ({ isModalOpen, handleCancel, loading }) => {
 
   return (
     <Modal
-      title="Lista De Cartas Gantt"
+      title="Lista De Informes De Conflicto Escolar"
       open={isModalOpen}
       onCancel={handleCancel}
       width={1000}
@@ -76,4 +76,4 @@ const ListaGantt = ({ isModalOpen, handleCancel, loading }) => {
   );
 };
 
-export default ListaGantt;
+export default ListaConflictos;

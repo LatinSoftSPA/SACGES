@@ -13,7 +13,7 @@ import {
 } from "@tremor/react";
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
-import TablaDetalles from "../../Tabla/Detalles";
+import TableBase from "../../Tabla/Detalles";
 
 const BarraProgreso = ({ valor, color }) => {
   const label = valor + "%";
@@ -73,7 +73,7 @@ const ItemAcordeon = ({ indicador, expanded, handleClick }) => {
       <AccordionBody>
         <Subtitle marginTop="mt-4">{descripcion}</Subtitle>
         <FormulaCard formula={formula} />
-        <TablaDetalles medios={medios} />
+        <TableBase medios={medios} titulo={titulo} />
       </AccordionBody>
     </Accordion>
   );
